@@ -46,6 +46,21 @@ export default function PowerPage() {
             </div>
           </div>
         </section>
+
+        <section className="transmission-section mt-10">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+              <div>
+                <h2 className="text-xl font-semibold">Transmission</h2>
+                <p className="text-sm text-gray-700 mt-4">From feasibility studies, route selection, right of way/easement acquisition, and permitting through final design to construction and final inspection, MEL has exceptional capabilities to provide the expertise necessary to successfully complete both underground and overhead transmission projects with distribution, communication and substation components. Our staff's project experience has varied from sub-transmission through 320kV and includes a wide range of design and construction approaches.</p>
+                <p className="text-sm text-gray-700 mt-4">Our firm's experience includes a wide range of voltage levels for new, upgraded, and repaired facilities. The installation of foundations, lattice steel, tubular steel, wood pole structures, conductor and fibre optic ground wire and cables is our core expertise. Our staff has experience studying feasibility and providing preliminary and final designs for lines with a wide variety of foundation, structure and configuration types.</p>
+              </div>
+              <div className="flex items-center justify-center">
+                <img src="https://cdn.builder.io/api/v1/image/assets%2Fb16a3dc5d258478fa272121e4fcb7921%2Fd81879dc47e841a5a672d86eb886f631?format=webp&width=800" alt="Transmission" className="w-full rounded-3xl object-cover" />
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
