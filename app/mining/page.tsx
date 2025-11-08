@@ -103,6 +103,10 @@ export default function MiningPage() {
         </div>
       </section>
 
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 section-divider">
+        <div className="border-t border-gray-300 w-full" />
+      </div>
+
       {/* Tenement Development Activities (as screenshot) */}
       <section className="tenement-activities-section py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6 lg:px-8">
