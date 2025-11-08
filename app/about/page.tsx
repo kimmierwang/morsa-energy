@@ -28,7 +28,7 @@ export default function AboutPage() {
           <div>
             <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-6">Empowering Industries to Solve Everyday Challenges</h2>
             <p className="text-gray-700 mb-6">
-              Mosra Energy Limited Nigeria (MEL) is a well-established coal
+              Mosra Energy Limited Nigeria (<span className="mel-acronym">MEL</span>) is a well-established coal
               mining company with over 15 years experience in the industry. We
               are operating coal mines in Kogi and Delta States. In addition to
               our current operations, we have several other coal blocks under

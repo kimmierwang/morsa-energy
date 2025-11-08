@@ -94,3 +94,9 @@ body {
   padding: 2rem;
   border-radius: 1rem;
 }
+
+/* MEL acronym emphasis */
+.mel-acronym {
+  letter-spacing: 0.08em;
+  font-size: 1.2em;
+}
