@@ -24,7 +24,7 @@ export default function PowerPage() {
 
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="relative overflow-hidden rounded-3xl shadow-lg">
+            <div className="relative overflow-visible rounded-3xl shadow-lg">
               <img src="/images/pe5.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px] object-cover rounded-3xl" />
 
               <div className="absolute -top-6 left-6 flex items-center">
