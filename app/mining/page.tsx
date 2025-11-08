@@ -47,7 +47,7 @@ export default function MiningPage() {
             <div className="power-gen-content">
               <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Coal To Power Generation</h2>
               <p className="mt-4 text-sm text-gray-700">
-                MEL has aligned with the current administration’s plan to generate 30 per cent of electricity needed in the country from coal. Consequently, we have obtained coal exploration Licenses for over 15 tenements including Lignite of the Delta Coastal Plain domiciled in Delta State and Sub-Bituminous Coal of the Ogboyoga/Okaba mining district domiciled in Kogi State all of the Anambra Basin in Nigeria. We are currently working on developing these coal properties exclusively for power generation.
+                <span className="mel-acronym">MEL</span> has aligned with the current administration’s plan to generate 30 per cent of electricity needed in the country from coal. Consequently, we have obtained coal exploration Licenses for over 15 tenements including Lignite of the Delta Coastal Plain domiciled in Delta State and Sub-Bituminous Coal of the Ogboyoga/Okaba mining district domiciled in Kogi State all of the Anambra Basin in Nigeria. We are currently working on developing these coal properties exclusively for power generation.
               </p>
               <div className="leader-profile mt-6 flex items-center gap-3">
                 <img src="/images/Ramos.png" alt="Olukayode Ramos" className="h-12 w-12 rounded-full object-cover" />
@@ -58,7 +58,7 @@ export default function MiningPage() {
               </div>
             </div>
             <div className="power-gen-image">
-              <img src="/images/img5.jpg" alt="Coal mining trucks at open-pit site" className="w-full max-h-[440px] h-full rounded-2xl object-cover shadow-lg" />
+              <img src="/images/img5.jpg" alt="Coal mining trucks at open-pit site" className="w-full max-h-[560px] h-full rounded-2xl object-cover shadow-lg" />
             </div>
           </div>
         </div>
