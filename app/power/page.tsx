@@ -64,18 +64,30 @@ export default function PowerPage() {
         </section>
 
         <section className="transmission-gallery mt-8">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
-              <div className="overflow-hidden rounded-3xl">
-                <img src="/images/pe6.jpg" alt="Transmission towers" className="w-full h-[220px] md:h-[320px] object-cover" />
-              </div>
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-stretch overflow-hidden rounded-3xl">
+      
+      {/* Left image - rounded only on the left side */}
+      <div className="overflow-hidden rounded-l-3xl md:rounded-l-3xl md:rounded-r-none">
+        <img
+          src="/images/pe6.jpg"
+          alt="Transmission towers"
+          className="w-full h-[220px] md:h-[320px] object-cover"
+        />
+      </div>
 
-              <div className="overflow-hidden rounded-3xl">
-                <img src="/images/pe7.jpg" alt="Engineer on site" className="w-full h-[220px] md:h-[320px] object-cover" />
-              </div>
-            </div>
-          </div>
-        </section>
+      {/* Right image - rounded only on the right side */}
+      <div className="overflow-hidden rounded-r-3xl md:rounded-r-3xl md:rounded-l-none">
+        <img
+          src="/images/pe7.jpg"
+          alt="Engineer on site"
+          className="w-full h-[220px] md:h-[320px] object-cover"
+        />
+      </div>
+    </div>
+  </div>
+</section>
+
       </main>
     </div>
   );
