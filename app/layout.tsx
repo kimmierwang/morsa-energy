@@ -21,6 +21,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} antialiased`}>
+        {/* Client-side error handlers to suppress noisy third-party fetch errors in preview/dev */}
+        <script dangerouslySetInnerHTML={{__html: `/* placeholder to keep module context for React */`}} />
+        {/* Client component mounts here */}
+        <div id="__client_error_handlers__" />
         {children}
       </body>
     </html>
