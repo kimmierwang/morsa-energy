@@ -67,7 +67,7 @@ export default function PowerPage() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
               <div className="overflow-hidden rounded-3xl">
-                <img src="/images/pe9.png" alt="Transmission towers" className="w-full h-[220px] md:h-[320px] object-cover" />
+                <img src="/images/pe6.png" alt="Transmission towers" className="w-full h-[220px] md:h-[320px] object-cover" />
               </div>
 
               <div className="overflow-hidden rounded-3xl">
