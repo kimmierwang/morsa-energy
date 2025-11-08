@@ -22,19 +22,28 @@ export default function PowerPage() {
           <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Power Generation &amp; Grid Solutions</span>
         </div>
 
-        <section className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
-          <div>
-            <h2 className="text-3xl md:text-4xl font-extrabold leading-tight mb-6">Reliable Power For Industry and Communities</h2>
-            <p className="text-gray-700 mb-6">
-              <span className="mel-acronym">MEL</span> develops and operates energy assets designed for dependable, efficient electricity supply. Our work spans coal-to-power projects, grid integration, and distribution upgrades, ensuring stable power for manufacturing hubs and rapidly growing cities.
-            </p>
-            <p className="text-gray-700">
-              We design systems with lifecycle performance in mind: generation planning, transmission and distribution engineering, protection and control, and long-term asset management. Our teams blend local execution with international standards to deliver outcomes that stand the test of time.
-            </p>
-          </div>
+        <section className="power-hero-section py-6">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="relative overflow-hidden rounded-3xl shadow-lg">
+              <img src="/images/pe6.jpg" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px] object-cover rounded-3xl" />
 
-          <div className="overflow-hidden rounded-2xl shadow">
-            <Image src="/images/img5.jpg" alt="Power systems and infrastructure" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
+              <div className="absolute top-4 left-4 flex items-center">
+                <div className="flex items-center -space-x-3">
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                    <img src="/images/pe1.png" alt="thumb 1" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                    <img src="/images/pe2.png" alt="thumb 2" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                    <img src="/images/pe3.png" alt="thumb 3" className="w-full h-full object-cover" />
+                  </div>
+                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                    <img src="/images/pe4.png" alt="thumb 4" className="w-full h-full object-cover" />
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </section>
       </main>
