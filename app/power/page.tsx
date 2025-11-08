@@ -68,10 +68,10 @@ export default function PowerPage() {
 
         <section className="transmission-gallery mt-8">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-stretch overflow-hidden rounded-3xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
 
               {/* Left image - rounded only on the left side */}
-              <div className="overflow-hidden rounded-r-3xl md:rounded-r-3xl md:rounded-l-none">
+              <div className="overflow-hidden rounded-l-3xl md:rounded-l-3xl md:rounded-r-none">
                 <img
                   src="/images/pe6.jpg"
                   alt="Transmission towers"
@@ -80,7 +80,7 @@ export default function PowerPage() {
               </div>
 
               {/* Right image - rounded only on the right side */}
-              <div className="overflow-hidden rounded-l-3xl md:rounded-l-3xl md:rounded-r-none">
+              <div className="overflow-hidden rounded-r-3xl md:rounded-r-3xl md:rounded-l-none">
                 <img
                   src="/images/pe7.jpg"
                   alt="Engineer on site"
