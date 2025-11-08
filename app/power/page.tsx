@@ -27,7 +27,7 @@ export default function PowerPage() {
             <div className="relative overflow-hidden rounded-3xl shadow-lg">
               <img src="/images/pe5.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px] object-cover rounded-3xl" />
 
-              <div className="absolute top-2 left-4 flex items-center">
+              <div className="absolute top-1 left-4 flex items-center">
                 <div className="flex items-center -space-x-3">
                   <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
                     <img src="/images/pe1.png" alt="thumb 1" className="w-full h-full object-cover" />
