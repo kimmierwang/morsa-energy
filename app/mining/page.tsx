@@ -72,8 +72,8 @@ export default function MiningPage() {
               <img src="/images/img6.jpg" alt="Coal tenements and mining site" className="w-full h-[320px] md:h-[480px] lg:h-[560px] object-cover rounded-2xl" />
             </div>
 
-            <div className="tenement-content max-w-sm mx-auto md:mx-0">
-              <h3 className="text-3xl md:text-4xl font-bold mb-4">Our Coal Tenements and Exploration Progress</h3>
+            <div className="tenement-content max-w-[20rem] md:max-w-[22rem] mx-auto md:mx-0">
+              <h3 className="text-4xl md:text-5xl font-bold leading-tight tracking-tight mb-4">Our Coal Tenements and Exploration Progress</h3>
               <p className="text-sm md:text-base text-gray-700 mb-4">Our Coal tenements for the Kogi state property are licensed under the Nigerian Minerals and Mining Act with Exploration license numbers 21493EL, 21363EL, 21834EL, 20188EL, 21496EL and 22598EL. Other exploration license numbers are 20415EL, 20957EL, 21493EL, 21497EL, 22489EL while the coal tenements for Delta coal property have Exploration License numbers 20981EL, 20982EL and 22598EL.</p>
               <p className="text-sm md:text-base text-gray-700">In 2015 MEL commenced a comprehensive geoscience/technical investigation and exploratory drilling program on its coal property in Kogi and Delta state. Till date a total number of 178 holes have been drilled at an average depth of 77meters and intercepted an average coal seam thickness of 1.3meters for Kogi and 10meters for Delta. The qualitative test conducted for the coal samples collected shows Kogi samples to have an average calorific value of 5842.71Kcal/kg and an average Sulphur content of 1.46% while Delta samples have an average calorific value of 4615.57Kcal/kg and an average Sulphur content of 0.66%.</p>
             </div>
