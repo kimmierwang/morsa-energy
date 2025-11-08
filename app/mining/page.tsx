@@ -45,8 +45,8 @@ export default function MiningPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="power-gen-content">
-              <h2 className="text-2xl md:text-3xl font-bold text-gray-900">Coal To Power Generation</h2>
-              <p className="mt-4 text-sm text-gray-700">
+              <h2 className="text-3xl md:text-4xl font-extrabold text-gray-900">Coal To Power Generation</h2>
+              <p className="mt-6 md:mt-8 text-base md:text-lg text-gray-700">
                 <span className="mel-acronym">MEL</span> has aligned with the current administration’s plan to generate 30 per cent of electricity needed in the country from coal. Consequently, we have obtained coal exploration Licenses for over 15 tenements including Lignite of the Delta Coastal Plain domiciled in Delta State and Sub-Bituminous Coal of the Ogboyoga/Okaba mining district domiciled in Kogi State all of the Anambra Basin in Nigeria. We are currently working on developing these coal properties exclusively for power generation.
               </p>
               <div className="leader-profile mt-6 flex items-center gap-3">
@@ -58,7 +58,7 @@ export default function MiningPage() {
               </div>
             </div>
             <div className="power-gen-image">
-              <img src="/images/img5.jpg" alt="Coal mining trucks at open-pit site" className="w-full max-h-[560px] h-full rounded-2xl object-cover shadow-lg" />
+              <img src="/images/img5.jpg" alt="Coal mining trucks at open-pit site" className="w-full h-[420px] md:h-[640px] lg:h-[720px] rounded-2xl object-cover shadow-lg" />
             </div>
           </div>
         </div>
