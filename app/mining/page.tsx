@@ -58,7 +58,7 @@ export default function MiningPage() {
               </div>
             </div>
             <div className="power-gen-image">
-              <img src="/images/img5.jpg" alt="Coal mining trucks at open-pit site" className="w-full h-[420px] md:h-[640px] lg:h-[420px] rounded-2xl object-cover shadow-lg" />
+              <img src="/images/img5.jpg" alt="Coal mining trucks at open-pit site" className="w-full h-[420px] md:h-[440px] lg:h-[420px] rounded-2xl object-cover shadow-lg" />
             </div>
           </div>
         </div>
