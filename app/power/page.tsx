@@ -69,13 +69,16 @@ export default function PowerPage() {
         {/* Dual image showcase (pe6 & pe7) */}
         <section className="images-showcase-section py-8">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-              <div className="image-card-left overflow-hidden rounded-3xl">
-                <img src="/images/pe6.jpg" alt="Transmission towers" className="w-full h-[200px] md:h-[260px] lg:h-[320px] object-cover" />
+            {/* allow images to reach the container horizontal edges by negating container padding */}
+            <div className="-mx-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+              <div className="overflow-hidden">
+                {/* keep full rounding on small screens; on md+ remove left rounding so left edge can be flush */}
+                <img src="/images/pe6.jpg" alt="Transmission towers" className="w-full h-[200px] md:h-[260px] lg:h-[320px] object-cover rounded-3xl md:rounded-l-none" />
               </div>
 
-              <div className="image-card-right overflow-hidden rounded-3xl">
-                <img src="/images/pe7.jpg" alt="Engineer on tablet" className="w-full h-[200px] md:h-[260px] lg:h-[320px] object-cover" />
+              <div className="overflow-hidden">
+                {/* keep full rounding on small screens; on md+ remove right rounding so right edge can be flush */}
+                <img src="/images/pe7.jpg" alt="Engineer on tablet" className="w-full h-[200px] md:h-[260px] lg:h-[320px] object-cover rounded-3xl md:rounded-r-none" />
               </div>
             </div>
           </div>
