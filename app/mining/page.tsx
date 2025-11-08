@@ -66,7 +66,7 @@ export default function MiningPage() {
 
       {/* Our Coal Tenements and Exploration Progress */}
      <section className="tenement-section py-16 bg-white">
-  <div className="max-w-7xl mx-auto px-6 lg:px-8">
+  <div className="max-w-9xl mx-auto px-6 lg:px-8">
     <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
       
       {/* Left Image */}
