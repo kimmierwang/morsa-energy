@@ -56,7 +56,7 @@ export default function PowerPage() {
                 <p className="text-sm text-gray-700 mt-4">Our firm's experience includes a wide range of voltage levels for new, upgraded, and repaired facilities. The installation of foundations, lattice steel, tubular steel, wood pole structures, conductor and fibre optic ground wire and cables is our core expertise. Our staff has experience studying feasibility and providing preliminary and final designs for lines with a wide variety of foundation, structure and configuration types.</p>
               </div>
               <div className="flex items-center justify-center">
-                <img src="https://cdn.builder.io/api/v1/image/assets%2Fb16a3dc5d258478fa272121e4fcb7921%2Fd81879dc47e841a5a672d86eb886f631?format=webp&width=800" alt="Transmission" className="w-full rounded-3xl object-cover" />
+                <img src="https://cdn.builder.io/api/v1/image/assets%2Fb16a3dc5d258478fa272121e4fcb7921%2Fea04b5abaad5412bb6786198cc8bceb7?format=webp&width=800" alt="Transmission" className="w-full rounded-3xl object-cover" />
               </div>
             </div>
           </div>
