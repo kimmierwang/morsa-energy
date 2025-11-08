@@ -24,21 +24,21 @@ export default function PowerPage() {
 
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
-            <div className="relative overflow-hidden rounded-3xl shadow-lg">
+            <div className="relative overflow-visible rounded-3xl shadow-lg">
               <img src="/images/pe5.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px] object-cover rounded-3xl" />
 
-              <div className="absolute top-4 left-4 flex items-center">
+              <div className="absolute -top-8 left-6 flex items-center z-10">
                 <div className="flex items-center -space-x-3">
-                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
                     <img src="/images/pe1.png" alt="thumb 1" className="w-full h-full object-cover" />
                   </div>
-                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
                     <img src="/images/pe2.png" alt="thumb 2" className="w-full h-full object-cover" />
                   </div>
-                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
                     <img src="/images/pe3.png" alt="thumb 3" className="w-full h-full object-cover" />
                   </div>
-                  <div className="w-12 h-12 rounded-full overflow-hidden border-2 border-white bg-white">
+                  <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
                     <img src="/images/pe4.png" alt="thumb 4" className="w-full h-full object-cover" />
                   </div>
                 </div>
