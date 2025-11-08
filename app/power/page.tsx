@@ -66,6 +66,30 @@ export default function PowerPage() {
           </div>
         </section>
 
+        {/* Distribution section with top notch and image below */}
+        <section className="distribution-section mt-8">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="relative">
+              <div className="bg-white rounded-3xl shadow-lg overflow-hidden pt-8">
+                {/* top center notch */}
+                <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 z-10">
+                  <div className="w-40 h-8 bg-white rounded-t-xl shadow-sm"></div>
+                </div>
+
+                <div className="px-8 pb-8 text-center">
+                  <h3 className="text-2xl md:text-3xl font-semibold text-gray-900">Distribution</h3>
+                  <p className="text-sm md:text-base text-gray-700 mt-2">Our distribution solutions ensure safe, reliable delivery from substation to end user — optimized for performance and resilience.</p>
+                </div>
+              </div>
+
+              {/* image below the distribution card */}
+              <div className="mt-6 overflow-hidden rounded-3xl shadow-md">
+                <img src="/images/pe8.png" alt="Distribution infrastructure" className="w-full h-[260px] md:h-[360px] object-cover" />
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="transmission-gallery mt-8">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch">
