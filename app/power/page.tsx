@@ -46,6 +46,25 @@ export default function PowerPage() {
             </div>
           </div>
         </section>
+
+        {/* Transmission section */}
+        <section className="transmission-section py-10 border-t border-gray-200">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+              <div className="md:col-span-1">
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Transmission</h2>
+              </div>
+              <div className="md:col-span-2 space-y-5 text-gray-700 leading-relaxed text-sm md:text-base">
+                <p>
+                  From feasibility studies, route selection, right of way/easement acquisition, and permitting through final design to construction and final inspection, MEL has exceptional capabilities to provide the expertise necessary to successfully complete both underground and overhead transmission projects with distribution, communication and substation components. Our staff’s project experience has varied from sub-transmission through 320kV and includes a wide range of design and construction approaches.
+                </p>
+                <p>
+                  Our firm’s experience includes a wide range of voltage levels for new, upgraded, and repaired facilities. The installation of foundations, lattice steel, tubular steel, wood pole structures, conductor and fibre optic ground wire and cables is our core expertise. Our staff has experience studying feasibility and providing preliminary and final designs for lines with a wide variety of foundation, structure and configuration types. MEL own specialized transmission line construction equipment regardless of size or scope. We also deploy specialized transmission computer programs including SAG10, PLS-CADD, PLS-POLE, PLS-TOWER, PLS-SAPS, CAISSON, and LPILE. Mosra has the expertise and the equipment to get the job done.
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
       </main>
     </div>
   );
