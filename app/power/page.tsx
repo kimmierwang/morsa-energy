@@ -131,6 +131,13 @@ export default function PowerPage() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
 
               <div className="md:col-span-1">
+                <div className="activity-card bg-white">
+                  <div className="flex items-center gap-4 mb-4">
+                    <span className="activity-number font-semibold text-gray-600">01</span>
+                    <div className="flex-1 border-t border-gray-300" />
+                  </div>
+                </div>
+
                 <h3 className="text-2xl font-semibold text-gray-900">Delta Lignite Coal Project</h3>
                 <p className="text-sm text-gray-700 mt-4 leading-relaxed">Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation. The project site covers multiple cadastral units and includes both surface and near-surface mining opportunities. Our team provides full lifecycle services from feasibility, permitting and design through to construction and site handover.</p>
               </div>
@@ -138,11 +145,11 @@ export default function PowerPage() {
               <div className="md:col-span-2 relative">
                 <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
 
-                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
+                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-4 md:translate-y-8">
                     <img src="/images/pe6.jpg" alt="site equipment" className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl" />
                   </div>
 
-                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
+                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-4 md:-translate-y-8">
                     <img src="/images/pe7.jpg" alt="coal stockpile" className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl" />
                   </div>
 
