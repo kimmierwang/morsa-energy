@@ -6,7 +6,7 @@ import ClientErrorHandlers from "./ClientErrorHandlers";
 const montserrat = Montserrat({
   variable: "--font-montserrat",
   subsets: ["latin"],
-  weight: ["400","600","700","800"],
+  weight: ["400", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
@@ -22,9 +22,6 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${montserrat.variable} antialiased`}>
-        {/* Client-side error handlers to suppress noisy third-party fetch errors in preview/dev */}
-        <script dangerouslySetInnerHTML={{__html: `/* placeholder to keep module context for React */`}} />
-        {/* Client component mounts here */}
         <ClientErrorHandlers />
         {children}
       </body>

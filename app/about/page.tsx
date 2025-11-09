@@ -8,7 +8,8 @@ export default function AboutPage() {
       <section className="bg-[#f9ecec] py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600">About Us</h1>
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-45 after:h-[1px] after:bg-red-600 after:mt-2">About Us</h1>
+
             <p className="text-sm text-gray-700">
               From energy to mining, Mosra Energy’s footprint spans multiple
               states, driving exploration, innovation, and sustainable
@@ -120,6 +121,10 @@ export default function AboutPage() {
         </div>
       </section>
 
+      <div className="max-w-7xl mx-auto px-6 lg:px-8 section-divider">
+        <div className="border-t border-gray-300 w-full" />
+      </div>
+
       {/* Vision & Mission */}
       <section id="purpose" className="py-12 bg-white">
         <div className="max-w-7xl mx-auto px-6">
@@ -220,75 +225,144 @@ export default function AboutPage() {
           <div className="space-y-6">
             <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
               {/* Card 1 */}
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Olukayode Ramos</div>
-                  <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
-                </div>
-              </div>
+           <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Ramos.png"
+      alt="Olukayode Ramos"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Olukayode Ramos</div>
+      <div className="text-xs text-white/80">
+        Chief Executive Officer, Mosra Enerji Ltd.
+      </div>
+    </div>
+  </div>
 
-              {/* Card 2 */}
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Daniel Monwuba</div>
-                  <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
-                </div>
-              </div>
+  {/* Card 2 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Daniel.png"
+      alt="Daniel Monwuba"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Daniel Monwuba</div>
+      <div className="text-xs text-white/80">
+        Group Head, Procurement, Sales & Marketing
+      </div>
+    </div>
+  </div>
 
-              {/* Card 3 */}
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
-                  <div className="text-xs text-white/80">Group Project Manager</div>
-                </div>
-              </div>
-            </div>
+  {/* Card 3 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/lawal.png"
+      alt="Engr. Muntari Lawal"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
+      <div className="text-xs text-white/80">Group Project Manager</div>
+    </div>
+  </div>
+</div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Chukwuma.png" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Chukwuma Chukwuekwu</div>
-                  <div className="text-xs text-white/80">Group Head, Accounts & Finance</div>
-                </div>
-              </div>
+{/* Second Row */}
+<div className="grid grid-cols-1 sm:grid-cols-3 gap-6 mt-6">
+  {/* Card 4 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Chukwuma.png"
+      alt="Chukwuma Chukwuekwu"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Chukwuma Chukwuekwu</div>
+      <div className="text-xs text-white/80">
+        Group Head, Accounts & Finance
+      </div>
+    </div>
+  </div>
 
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Ali.png" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Ahmed Ali</div>
-                  <div className="text-xs text-white/80">Group Head, Human Resources & Corporate Services</div>
-                </div>
-              </div>
+  {/* Card 5 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Ali.png"
+      alt="Ahmed Ali"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Ahmed Ali</div>
+      <div className="text-xs text-white/80">
+        Group Head, Human Resources & Corporate Services
+      </div>
+    </div>
+  </div>
 
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Abubakar.png" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Abubakar Ibrahim</div>
-                  <div className="text-xs text-white/80">Head, Mineral Exploration</div>
-                </div>
-              </div>
-            </div>
+  {/* Card 6 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Abubakar.png"
+      alt="Abubakar Ibrahim"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Abubakar Ibrahim</div>
+      <div className="text-xs text-white/80">Head, Mineral Exploration</div>
+    </div>
+  </div>
+</div>
 
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto">
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Ishola.png" alt="Ishola Emmanuel Aderopo" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Ishola Emmanuel Aderopo</div>
-                  <div className="text-xs text-white/80">Plant Manager, Idowa Falola Coal Mines (IFCM), Delta State</div>
-                </div>
-              </div>
+{/* Third Row */}
+<div className="grid grid-cols-1 sm:grid-cols-2 gap-6 max-w-4xl mx-auto mt-6">
+  {/* Card 7 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Ishola.png"
+      alt="Ishola Emmanuel Aderopo"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">Ishola Emmanuel Aderopo</div>
+      <div className="text-xs text-white/80">
+        Plant Manager, Idowa Falola Coal Mines (IFCM), Delta State
+      </div>
+    </div>
+  </div>
 
-              <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                <Image src="/images/Babatunde.png" alt="Babatunde Olanrewaju Emmanuel" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                  <div className="text-white font-semibold">Engr. Babatunde Olanrewaju Emmanuel</div>
-                  <div className="text-xs text-white/80">Plant Manager, Tunde Ramos Coal Mines (TRCM), Kogi State</div>
-                </div>
-              </div>
+  {/* Card 8 */}
+  <div className="relative rounded-2xl overflow-hidden shadow-lg">
+    <Image
+      src="/images/Babatunde.png"
+      alt="Babatunde Olanrewaju Emmanuel"
+      width={600}
+      height={800}
+      className="w-full h-[35rem] object-cover"
+    />
+    <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+      <div className="text-white font-semibold">
+        Engr. Babatunde Olanrewaju Emmanuel
+      </div>
+      <div className="text-xs text-white/80">
+        Plant Manager, Tunde Ramos Coal Mines (TRCM), Kogi State
+      </div>
+    </div>
+  </div>
             </div>
           </div>
         </div>
