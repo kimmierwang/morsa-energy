@@ -189,7 +189,7 @@ export default function PowerPage() {
 
       {/* Investment / Contact section */}
  <section className="investment-section py-16 bg-[#fafafa] mt-12">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-full mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
           {/* Left: Heading above image */}
