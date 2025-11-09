@@ -198,11 +198,11 @@ export default function PowerPage() {
               Looking To Make An Investment?
             </h3>
 
-            <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md w-full">
+            <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md">
               <img
                 src="/images/img1.png"
                 alt="Investment opportunity"
-                className="w-[110%] md:w-[120%] h-[220px] md:h-[320px] object-cover -ml-6 md:-ml-8"
+                className="block w-[110%] md:w-[130%] lg:w-[150%] h-[200px] md:h-[300px] object-cover -ml-6 md:-ml-16 lg:-ml-32"
               />
             </div>
           </div>
