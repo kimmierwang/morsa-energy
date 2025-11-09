@@ -202,7 +202,7 @@ export default function PowerPage() {
               <img
                 src="/images/img1.png"
                 alt="Investment opportunity"
-                className="block w-[110%] md:w-[130%] lg:w-[150%] h-[200px] md:h-[300px] object-cover -ml-6 md:-ml-16 lg:-ml-32"
+                className="block w-[110%] md:w-[130%] lg:w-[2000%] h-[200px] md:h-[300px] object-cover -ml-6 md:-ml-16 lg:-ml-32"
               />
             </div>
           </div>
