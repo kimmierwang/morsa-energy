@@ -124,22 +124,23 @@ export default function PowerPage() {
         </section>
 
         {/* Project showcase below gallery using pe6 and pe7 */}
-<section className="project-showcase mt-10 relative">
+<section className="project-showcase mt-16 relative">
   <div className="max-w-7xl mx-auto px-6">
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
 
+      {/* Left Content */}
       <div className="md:col-span-1">
         <div className="activity-card bg-white">
           <div className="flex items-center gap-4 mb-4">
-            <span className="activity-number font-semibold text-gray-600">01</span>
+            <span className="activity-number font-semibold text-gray-600 text-lg">01</span>
             <div className="flex-1 border-t border-gray-300" />
           </div>
         </div>
 
-        <h3 className="text-2xl font-semibold text-gray-900">
+        <h3 className="text-3xl font-bold text-gray-900 leading-snug">
           Delta Lignite Coal Project
         </h3>
-        <p className="text-sm text-gray-700 mt-4 leading-relaxed">
+        <p className="text-base text-gray-700 mt-4 leading-relaxed">
           Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation.
           The project site covers multiple cadastral units and includes both surface and
           near-surface mining opportunities. Our team provides full lifecycle services from
@@ -147,54 +148,38 @@ export default function PowerPage() {
         </p>
       </div>
 
-      <div className="md:col-span-2 relative">
-        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
-          <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-4 md:translate-y-8">
+      {/* Right Image Grid */}
+      <div className="md:col-span-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div className="rounded-2xl overflow-hidden shadow-lg bg-gray-50">
             <img
               src="/images/pe6.jpg"
-              alt="site equipment"
-              className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl"
+              alt="Mining site overview"
+              className="w-full h-[260px] md:h-[340px] object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
-
-          <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-4 md:-translate-y-8">
+          <div className="rounded-2xl overflow-hidden shadow-lg bg-gray-50">
             <img
               src="/images/pe7.jpg"
-              alt="coal stockpile"
-              className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl"
+              alt="Excavation site equipment"
+              className="w-full h-[260px] md:h-[340px] object-cover transition-transform duration-300 hover:scale-105"
             />
           </div>
         </div>
       </div>
+
     </div>
   </div>
-</section>
 
-{/* 🔽 Floating arrow + icon outside section (on main screen) */}
-<div className="fixed bottom-6 right-6 flex flex-col items-center space-y-3 z-50">
-  {/* Black rounded arrow */}
-  <button
-    className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center shadow-lg hover:bg-gray-800 transition"
-  >
-    <svg
-      xmlns="http://www.w3.org/2000/svg"
-      className="w-6 h-6"
-      fill="none"
-      viewBox="0 0 24 24"
-      stroke="currentColor"
-      strokeWidth={2}
-    >
-      <path strokeLinecap="round" strokeLinejoin="round" d="M17 13l-5 5m0 0l-5-5m5 5V6" />
+  {/* Floating Arrow Button */}
+  <button className="absolute bottom-6 right-6 bg-black text-white rounded-full p-3 hover:bg-gray-800 transition">
+    <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none"
+      viewBox="0 0 24 24" stroke="currentColor" strokeWidth={2}>
+      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M12 5l7 7-7 7" />
     </svg>
   </button>
+</section>
 
-  {/* Icon below arrow */}
-  <img
-    src="/images/pe1.png"
-    alt="icon"
-    className="w-10 h-10 object-contain"
-  />
-</div>
 
 
       </main>
