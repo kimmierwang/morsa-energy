@@ -153,15 +153,15 @@ export default function PowerPage() {
 
                 </div>
 
-
+                {/* circular action button overlapping the images */}
+                <button aria-label="open project" className="absolute right-6 bottom-4 transform -translate-y-1/2 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                  <img src="/images/pe1.png" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
+                </button>
               </div>
             </div>
           </div>
-          <button aria-label="open project" className="absolute right-6 top-40  w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
-            <img src="/images/pe1.jpg" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
-          </button>
         </section>
-             
+
       </main>
     </div>
   );
