@@ -91,8 +91,8 @@ export default function PowerPage() {
 
                 {/* floating action button */}
                 <div className="relative mt-4">
-                  <button aria-label="open project" className="absolute right-0 bottom-0 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
-                    <img src="/next.svg" alt="arrow" className="w-5 h-5" />
+                  <button aria-label="open project" className="absolute right-0 -bottom-2 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                    <img src="/images/pe1.png" alt="thumb" className="w-6 h-6 rounded-full object-cover" />
                   </button>
                 </div>
               </div>
