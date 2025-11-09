@@ -76,7 +76,7 @@ export default function PowerPage() {
                 <p className="text-sm text-gray-700 mt-4">The Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation and comprises multiple exploration licences. The project area includes significant coal resources and infrastructure opportunities for both surface and near-surface mining operations. Our team provides end-to-end support from feasibility and permitting to contractor management and final handover, ensuring compliance and operational readiness.</p>
               </div>
 
-              <div className="md:col-span-2">
+              <div className="md:col-span-2 relative">
                 <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
 
                   <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
@@ -90,11 +90,9 @@ export default function PowerPage() {
                 </div>
 
                 {/* floating action button */}
-                <div className="relative mt-4">
-                  <button aria-label="open project" className="absolute right-0 -bottom-20 md:-bottom-24 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                  <button aria-label="open project" className="absolute right-6 top-1/2 transform -translate-y-1/2 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
                     <img src="/images/pe1.png" alt="thumb" className="w-6 h-6 rounded-full object-cover" />
                   </button>
-                </div>
               </div>
             </div>
           </div>
@@ -156,7 +154,7 @@ export default function PowerPage() {
                 </div>
 
                 {/* circular action button overlapping the images */}
-                <button aria-label="open project" className="absolute right-4 -bottom-20 md:-bottom-24 md:right-6 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                <button aria-label="open project" className="absolute right-6 top-1/2 transform -translate-y-1/2 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
                   <img src="/images/pe1.png" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
                 </button>
               </div>
