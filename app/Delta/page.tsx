@@ -10,10 +10,9 @@ export default function Delta() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Left Title */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2">
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-full after:h-[1px] after:bg-red-600 after:mt-2">
               Delta Lignite Project 
             </h1>
-            <div className="w-16 h-[2px] bg-red-500 mb-4"></div>
           </div>
 
           {/* Right Paragraph */}
@@ -28,7 +27,7 @@ export default function Delta() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/pe10.png"
+              src="/images/del1.png"
               alt="Mining site landscape"
               fill
               priority
@@ -100,56 +99,71 @@ export default function Delta() {
                     <div className="max-w-7xl mx-auto px-6">
                       <div className="space-y-6">
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
-                          {/* Card 1 */}
-                          <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
-                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Olukayode Ramos</div>
-                              <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
-                            </div>
-                          </div>
-            
-                          {/* Card 2 */}
-                          <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Daniel Monwuba</div>
-                              <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
-                            </div>
-                          </div>
-            
-                          {/* Card 3 */}
-                          <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
-                              <div className="text-xs text-white/80">Group Project Manager</div>
-                            </div>
-                          </div>
-                        </div>
+                            {/* Card 1 */}
+                                    <div className="relative rounded-2xl overflow-hidden shadow-lg">
+                             <Image
+                               src="/images/del2.jpg"
+                               alt="Olukayode Ramos"
+                               width={600}
+                               height={800}
+                               className="w-full h-[35rem] object-cover"
+                             />
+                             <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">
+                               <div className="text-xs text-white/80 font-semibold">
+                                PBH-22 Core box with 4 lignite seams (seam A - D) having thicknesses 2.40m, 0.65m, 3.50m and 2.45m respectively with intersection between depth 48.40m to 64.27m.
+                               </div>
+                             </div>
+                           </div>
+                         
+                           {/* Card 2 */}
+                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
+                             <Image
+                               src="/images/del3.jpg"
+                               alt="Daniel Monwuba"
+                               width={600}
+                               height={800}
+                               className="w-full h-[35rem] object-cover"
+                             />
+                             <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">                      
+                               <div className="text-xs text-white/80 font-semibold">
+                                 PBH-21 Core box with 5 lignite seams (seam A - E) having thicknesses 2.44m, 0.70m, 1.10m, 3.60m and 2.75m respectively with seams intersection between depth 21.85m to 37.55m.
+                               </div>
+                             </div>
+                           </div>
+                         
+                           {/* Card 3 */}
+                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
+                             <Image
+                               src="/images/del4.jpg"
+                               alt="Engr. Muntari Lawal"
+                               width={600}
+                               height={800}
+                               className="w-full h-[35rem] object-cover"
+                             />
+                             <div className="absolute bottom-0 left-0 right-0 bg-white/10 backdrop-blur-md p-4 rounded-t-2xl">                               
+                               <div className="text-xs text-white/80 font-semibold">PBH-19 Core box with 5 lignite seams (seam A - E) having thicknesses 2.40m, 2.62, 3.35m,
+                                2.60m and 0.70m respectively with seams intersection between depth 35.15m to 57.65m.</div>
+                             </div>
+                           </div>
+                         </div>
+                         
             
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Chukwuma.png" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/del5.jpg" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Chukwuma Chukwuekwu</div>
-                              <div className="text-xs text-white/80">Group Head, Accounts & Finance</div>
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Ali.png" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/del6.jpg" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Ahmed Ali</div>
-                              <div className="text-xs text-white/80">Group Head, Human Resources & Corporate Services</div>
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Abubakar.png" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/del7.jpg" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Abubakar Ibrahim</div>
-                              <div className="text-xs text-white/80">Head, Mineral Exploration</div>
                             </div>
                           </div>
                         </div>
