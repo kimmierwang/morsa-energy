@@ -188,82 +188,82 @@ export default function PowerPage() {
 
 
       {/* Investment / Contact section */}
-     <section className="investment-section py-16 bg-[#fafafa] mt-12">
-  <div className="max-w-7xl mx-auto px-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+ <section className="investment-section py-16 bg-[#fafafa] mt-12">
+      <div className="max-w-7xl mx-auto px-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
 
-      {/* Left Image */}
-      <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md">
-        <img
-          src="/images/img1.png"
-          alt="Investment opportunity"
-          className="w-full h-[320px] md:h-[440px] object-cover"
-        />
-      </div>
-
-      {/* Right Content */}
-      <div className="space-y-5">
-        <div>
-          <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
-            Looking To Make An Investment?
-          </h3>
-          <p className="text-sm md:text-base text-gray-700 mt-3 leading-relaxed max-w-md">
-            Connect with our Investor Relations team to learn more about current opportunities
-            and project performance.
-          </p>
-        </div>
-
-        {/* Form */}
-        <form className="space-y-4 mt-6">
-          <input
-            name="name"
-            placeholder="Name"
-            className="w-full border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
-          />
-          <input
-            name="email"
-            placeholder="Email"
-            className="w-full border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
-          />
-          <input
-            name="phone"
-            placeholder="Phone Number"
-            className="w-full border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
-          />
-          <textarea
-            name="message"
-            placeholder="Message"
-            className="w-full border border-gray-200 rounded-md px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-red-500"
-          />
-
-          {/* Button */}
-          <div className="flex justify-end">
-            <button
-              type="submit"
-              className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full flex items-center gap-2 shadow-md transition-all duration-300"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
-                fill="none"
-                viewBox="0 0 24 24"
-                stroke="currentColor"
-                strokeWidth={2}
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M3 10l7-7m0 0l7 7M10 3v18"
-                />
-              </svg>
-              Send Message
-            </button>
+          {/* Left Image */}
+          <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md">
+            <img
+              src="/images/investment-excavator.png" // replace with your actual image path
+              alt="Investment opportunity"
+              className="w-full h-[320px] md:h-[440px] object-cover"
+            />
           </div>
-        </form>
+
+          {/* Right Content */}
+          <div className="space-y-5">
+            <div>
+              <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
+                Looking To Make An Investment?
+              </h3>
+              <p className="text-sm md:text-base text-gray-700 mt-3 leading-relaxed max-w-md">
+                Connect with our Investor Relations team to learn more about current opportunities
+                and project performance.
+              </p>
+            </div>
+
+            {/* Form */}
+            <form className="space-y-4 mt-6">
+              <input
+                name="name"
+                placeholder="Name"
+                className="w-full border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+              />
+              <input
+                name="email"
+                placeholder="Email"
+                className="w-full border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+              />
+              <input
+                name="phone"
+                placeholder="Phone Number"
+                className="w-full border border-gray-200 rounded-md px-4 py-3 focus:outline-none focus:ring-2 focus:ring-red-500"
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                className="w-full border border-gray-200 rounded-md px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-red-500"
+              />
+
+              {/* Button */}
+              <div className="flex justify-end">
+                <button
+                  type="submit"
+                  className="bg-red-600 hover:bg-red-700 text-white px-6 py-3 rounded-full flex items-center gap-2 shadow-md transition-all duration-300"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="h-5 w-5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    strokeWidth={2}
+                  >
+                    <path
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                      d="M3 10l7-7m0 0l7 7M10 3v18"
+                    />
+                  </svg>
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
       </div>
-    </div>
-  </div>
-</section>
+    </section>
 
       </main>
     </div>
