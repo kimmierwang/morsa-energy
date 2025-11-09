@@ -8,7 +8,7 @@ export default function PowerPage() {
       <section className="bg-[#f9ecec] py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600">Energy &amp; Power</h1>
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-75 after:h-[1px] after:bg-red-600 after:mt-2">Energy &amp; Power</h1>
             <p className="text-sm text-gray-700">
               Delivering reliable energy and power solutions that fuel growth, innovation, and sustainability. From generation to distribution, we engineer robust energy systems that keep industries running and communities thriving.
             </p>
@@ -65,29 +65,30 @@ export default function PowerPage() {
             </div>
           </div>
         </section>
+          <section className="transmission-gallery mt-8">
+  <div className="w-full">
+    <div className="flex flex-col md:flex-row justify-center items-center md:gap-12 gap-6">
+      {/* Left Image */}
+      <div className="w-[90%] md:w-[42%] overflow-hidden rounded-r-[5rem] md:rounded-r-full md:rounded-l-none shadow-lg">
+        <img
+          src="/images/pe6.jpg"
+          alt="Transmission towers"
+          className="w-full h-[150px] md:h-[240px] object-cover"
+        />
+      </div>
 
-        <section className="transmission-gallery mt-8">
-          <div className="max-w-7xl mx-auto px-6">
-          <div class="flex flex-col md:flex-row justify-center items-center gap-6 bg-gray-100 p-6">
-  <div class="overflow-hidden rounded-r-3xl md:rounded-r-full md:rounded-l-none shadow-lg">
-    <img
-      src="/images/pe6.jpg"
-      alt="Transmission towers"
-      class="w-full h-[220px] md:h-[320px] object-cover"
-    />
+      {/* Right Image */}
+      <div className="w-[90%] md:w-[42%] overflow-hidden rounded-l-[5rem] md:rounded-l-full md:rounded-r-none shadow-lg">
+        <img
+          src="/images/pe7.jpg"
+          alt="Engineer on site"
+          className="w-full h-[150px] md:h-[240px] object-cover"
+        />
+      </div>
+    </div>
   </div>
+</section>
 
-  <div class="overflow-hidden rounded-l-3xl md:rounded-l-full md:rounded-r-none shadow-lg">
-    <img
-      src="/images/pe7.jpg"
-      alt="Engineer on site"
-      class="w-full h-[220px] md:h-[320px] object-cover"
-    />
-  </div>
-</div>
-
-          </div>
-        </section>
         
          <section className="Distribution-section py-10 border-t border-gray-200">
           <div className="max-w-7xl mx-auto px-6">
