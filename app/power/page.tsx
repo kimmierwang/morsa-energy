@@ -91,7 +91,7 @@ export default function PowerPage() {
 
                 {/* floating action button */}
                 <div className="relative mt-4">
-                  <button aria-label="open project" className="absolute right-0 -bottom-2 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                  <button aria-label="open project" className="absolute right-0 -bottom-20 md:-bottom-24 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
                     <img src="/images/pe1.png" alt="thumb" className="w-6 h-6 rounded-full object-cover" />
                   </button>
                 </div>
@@ -156,7 +156,7 @@ export default function PowerPage() {
                 </div>
 
                 {/* circular action button overlapping the images */}
-                <button aria-label="open project" className="absolute right-4 -bottom-8 md:bottom-6 md:right-6 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                <button aria-label="open project" className="absolute right-4 -bottom-20 md:-bottom-24 md:right-6 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
                   <img src="/images/pe1.png" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
                 </button>
               </div>
