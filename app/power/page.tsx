@@ -192,29 +192,28 @@ export default function PowerPage() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
-          {/* Left Image + Header */}
+          {/* Left: Heading above image */}
           <div>
-            <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md">
+            <h3 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+              Looking To Make An Investment?
+            </h3>
+
+            <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md w-full">
               <img
                 src="/images/img1.png"
                 alt="Investment opportunity"
-                className="w-full h-[320px] md:h-[440px] object-cover"
+                className="w-[110%] md:w-[120%] h-[220px] md:h-[320px] object-cover -ml-6 md:-ml-8"
               />
-            </div>
-
-            <div className="mt-6 md:mt-8">
-              <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
-                Looking To Make An Investment?
-              </h3>
-              <p className="text-sm md:text-base text-gray-700 mt-3 leading-relaxed max-w-md">
-                Connect with our Investor Relations team to learn more about current opportunities
-                and project performance.
-              </p>
             </div>
           </div>
 
-          {/* Right: Form only */}
+          {/* Right: Intro above form */}
           <div className="space-y-5">
+            <p className="text-sm md:text-base text-gray-700 leading-relaxed">
+              Connect with our Investor Relations team to learn more about current opportunities
+              and project performance.
+            </p>
+
             <form className="space-y-4 mt-2 bg-white p-6 rounded-2xl shadow-sm">
               <input
                 name="name"
