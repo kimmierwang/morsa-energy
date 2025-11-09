@@ -124,7 +124,7 @@ export default function PowerPage() {
         </section>
 
         {/* Project showcase below gallery using pe6 and pe7 */}
-<<section className="project-showcase mt-16 relative">
+<section className="project-showcase mt-16 relative">
   <div className="max-w-7xl mx-auto px-6">
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8 items-start">
 
