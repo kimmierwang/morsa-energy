@@ -66,6 +66,40 @@ export default function PowerPage() {
           </div>
         </section>
 
+        {/* Delta Lignite Coal Project section */}
+        <section className="project-section mt-8">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+
+              <div className="md:col-span-1">
+                <h3 className="text-2xl font-semibold text-gray-900">Delta Lignite Coal Project</h3>
+                <p className="text-sm text-gray-700 mt-4">The Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation and comprises multiple exploration licences. The project area includes significant coal resources and infrastructure opportunities for both surface and near-surface mining operations. Our team provides end-to-end support from feasibility and permitting to contractor management and final handover, ensuring compliance and operational readiness.</p>
+              </div>
+
+              <div className="md:col-span-2">
+                <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
+
+                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
+                    <img src="/images/pe5.png" alt="coal stockpile" className="w-full h-[180px] md:h-[220px] object-cover rounded-2xl" />
+                  </div>
+
+                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
+                    <img src="/images/pe5.png" alt="site equipment" className="w-full h-[180px] md:h-[220px] object-cover rounded-2xl" />
+                  </div>
+
+                </div>
+
+                {/* floating action button */}
+                <div className="relative mt-4">
+                  <button aria-label="open project" className="absolute right-0 bottom-0 w-12 h-12 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                    <img src="/next.svg" alt="arrow" className="w-5 h-5" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section className="transmission-gallery mt-8">
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-0 items-stretch overflow-hidden rounded-3xl">
