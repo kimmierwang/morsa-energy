@@ -124,45 +124,75 @@ export default function PowerPage() {
         </section>
 
         {/* Project showcase below gallery using pe6 and pe7 */}
-        <section className="project-showcase mt-10">
-          <div className="max-w-7xl mx-auto px-6">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+        <section className="project-showcase mt-10 relative">
+  <div className="max-w-7xl mx-auto px-6">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
 
-              <div className="md:col-span-1">
-                <div className="activity-card bg-white">
-                  <div className="flex items-center gap-4 mb-4">
-                    <span className="activity-number font-semibold text-gray-600">01</span>
-                    <div className="flex-1 border-t border-gray-300" />
-                  </div>
-                </div>
-
-                <h3 className="text-2xl font-semibold text-gray-900">Delta Lignite Coal Project</h3>
-                <p className="text-sm text-gray-700 mt-4 leading-relaxed">Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation. The project site covers multiple cadastral units and includes both surface and near-surface mining opportunities. Our team provides full lifecycle services from feasibility, permitting and design through to construction and site handover.</p>
-              </div>
-
-              <div className="md:col-span-2 relative">
-                <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
-
-                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-4 md:translate-y-8">
-                    <img src="/images/pe6.jpg" alt="site equipment" className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl" />
-                  </div>
-
-                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-4 md:-translate-y-8">
-                    <img src="/images/pe7.jpg" alt="coal stockpile" className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl" />
-                  </div>
-
-                </div>
-
-                {/* circular action button overlapping the images */}
-               
-              </div>
-            </div>
-             <button aria-label="open project" className="absolute right-6 bottom-4 transform -translate-y-1/2 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="/images/pe1.png" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
-                </button>
+      <div className="md:col-span-1">
+        <div className="activity-card bg-white">
+          <div className="flex items-center gap-4 mb-4">
+            <span className="activity-number font-semibold text-gray-600">01</span>
+            <div className="flex-1 border-t border-gray-300" />
           </div>
-        </section>
-         
+        </div>
+
+        <h3 className="text-2xl font-semibold text-gray-900">Delta Lignite Coal Project</h3>
+        <p className="text-sm text-gray-700 mt-4 leading-relaxed">
+          Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation.
+          The project site covers multiple cadastral units and includes both surface and
+          near-surface mining opportunities. Our team provides full lifecycle services from
+          feasibility, permitting and design through to construction and site handover.
+        </p>
+      </div>
+
+      <div className="md:col-span-2 relative">
+        <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
+          <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-4 md:translate-y-8">
+            <img
+              src="/images/pe6.jpg"
+              alt="site equipment"
+              className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl"
+            />
+          </div>
+
+          <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-4 md:-translate-y-8">
+            <img
+              src="/images/pe7.jpg"
+              alt="coal stockpile"
+              className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {/* Black rounded arrow at bottom-right */}
+  <div className="absolute right-6 bottom-10 flex flex-col items-center space-y-3">
+    <button
+      className="w-12 h-12 rounded-full bg-black text-white flex items-center justify-center shadow-lg hover:bg-gray-800 transition"
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        className="w-6 h-6"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke="currentColor"
+        strokeWidth={2}
+      >
+        <path strokeLinecap="round" strokeLinejoin="round" d="M17 13l-5 5m0 0l-5-5m5 5V6" />
+      </svg>
+    </button>
+
+    {/* Icon below the arrow */}
+    <img
+      src="/images/pe1.png"
+      alt="icon"
+      className="w-10 h-10 object-contain"
+    />
+  </div>
+</section>
+
       </main>
     </div>
   );
