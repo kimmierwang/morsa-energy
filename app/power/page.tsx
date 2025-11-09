@@ -162,7 +162,9 @@ export default function PowerPage() {
                 </button>
           </div>
         </section>
-
+           <button aria-label="open project" className="absolute right-6 bottom-4 transform -translate-y-1/2 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                  <img src="/images/pe1.png" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
+                </button>
       </main>
     </div>
   );
