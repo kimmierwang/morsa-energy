@@ -156,8 +156,8 @@ export default function PowerPage() {
                 </div>
 
                 {/* circular action button overlapping the images */}
-                <button aria-label="open project" className="absolute right-4 -bottom-6 md:bottom-4 md:right-6 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
-                  <img src="/next.svg" alt="arrow" className="w-5 h-5" />
+                <button aria-label="open project" className="absolute right-4 -bottom-8 md:bottom-6 md:right-6 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                  <img src="/images/pe1.png" alt="thumb" className="w-8 h-8 rounded-full object-cover" />
                 </button>
               </div>
             </div>
