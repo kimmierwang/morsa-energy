@@ -190,20 +190,19 @@ export default function PowerPage() {
       {/* Investment / Contact section */}
  <section className="investment-section py-16 bg-[#fafafa] mt-12">
       <div className="max-w-7xl mx-auto px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-10 items-start">
 
-          {/* Left Image */}
-          <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md">
-            <img
-              src="/images/investment-excavator.png" // replace with your actual image path
-              alt="Investment opportunity"
-              className="w-full h-[320px] md:h-[440px] object-cover"
-            />
-          </div>
+          {/* Left Image + Header */}
+          <div>
+            <div className="relative overflow-hidden rounded-r-[120px] rounded-l-none shadow-md">
+              <img
+                src="/images/img1.png"
+                alt="Investment opportunity"
+                className="w-full h-[320px] md:h-[440px] object-cover"
+              />
+            </div>
 
-          {/* Right Content */}
-          <div className="space-y-5">
-            <div>
+            <div className="mt-6 md:mt-8">
               <h3 className="text-3xl md:text-4xl font-bold text-gray-900">
                 Looking To Make An Investment?
               </h3>
@@ -212,9 +211,11 @@ export default function PowerPage() {
                 and project performance.
               </p>
             </div>
+          </div>
 
-            {/* Form */}
-            <form className="space-y-4 mt-6">
+          {/* Right: Form only */}
+          <div className="space-y-5">
+            <form className="space-y-4 mt-2 bg-white p-6 rounded-2xl shadow-sm">
               <input
                 name="name"
                 placeholder="Name"
@@ -236,7 +237,6 @@ export default function PowerPage() {
                 className="w-full border border-gray-200 rounded-md px-4 py-3 h-32 focus:outline-none focus:ring-2 focus:ring-red-500"
               />
 
-              {/* Button */}
               <div className="flex justify-end">
                 <button
                   type="submit"
@@ -261,6 +261,7 @@ export default function PowerPage() {
               </div>
             </form>
           </div>
+
         </div>
       </div>
     </section>
