@@ -125,6 +125,38 @@ export default function PowerPage() {
           </div>
         </section>
 
+        {/* Project showcase below gallery using pe6 and pe7 */}
+        <section className="project-showcase mt-10">
+          <div className="max-w-7xl mx-auto px-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 items-start">
+
+              <div className="md:col-span-1">
+                <h3 className="text-2xl font-semibold text-gray-900">Delta Lignite Coal Project</h3>
+                <p className="text-sm text-gray-700 mt-4 leading-relaxed">Delta Lignite Coal Project is located within the Anagba-Ogwuashi lignite formation. The project site covers multiple cadastral units and includes both surface and near-surface mining opportunities. Our team provides full lifecycle services from feasibility, permitting and design through to construction and site handover.</p>
+              </div>
+
+              <div className="md:col-span-2 relative">
+                <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
+
+                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
+                    <img src="/images/pe6.jpg" alt="site equipment" className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl" />
+                  </div>
+
+                  <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm">
+                    <img src="/images/pe7.jpg" alt="coal stockpile" className="w-full h-[220px] md:h-[320px] object-cover rounded-2xl" />
+                  </div>
+
+                </div>
+
+                {/* circular action button overlapping the images */}
+                <button aria-label="open project" className="absolute right-4 -bottom-6 md:bottom-4 md:right-6 w-14 h-14 bg-black text-white rounded-full flex items-center justify-center shadow-lg">
+                  <img src="/next.svg" alt="arrow" className="w-5 h-5" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+
       </main>
     </div>
   );
