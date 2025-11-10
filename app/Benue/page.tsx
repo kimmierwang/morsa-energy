@@ -27,7 +27,7 @@ export default function Benue() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/bu1.png"
+              src="/images/Benue/Img1.png"
               alt="Mining site landscape"
               fill
               priority
@@ -64,7 +64,7 @@ export default function Benue() {
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/bu2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/Benue/Img2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -79,7 +79,7 @@ export default function Benue() {
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/bu3.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/Benue/Img3.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>

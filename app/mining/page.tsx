@@ -20,10 +20,10 @@ export default function MiningPage() {
   <div className="max-w-7xl mx-auto px-6">
     <div className="mining-gallery dotted-bg grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
       {[
-        "/images/img1.png",
-        "/images/img2.png",
-        "/images/img3.png",
-        "/images/img4.png",
+        "/images/Mining/img1.png",
+        "/images/Mining/img2.png",
+        "/images/Mining/img3.png",
+        "/images/Mining/img4.png",
       ].map((src, index) => (
         <div
           key={index}
@@ -50,7 +50,7 @@ export default function MiningPage() {
                 <span className="mel-acronym">MEL</span> has aligned with the current administration’s plan to generate 30 per cent of electricity needed in the country from coal. Consequently, we have obtained coal exploration Licenses for over 15 tenements including Lignite of the Delta Coastal Plain domiciled in Delta State and Sub-Bituminous Coal of the Ogboyoga/Okaba mining district domiciled in Kogi State all of the Anambra Basin in Nigeria. We are currently working on developing these coal properties exclusively for power generation.
               </p>
               <div className="leader-profile mt-6 flex items-center gap-3">
-                <img src="/images/Ramos.png" alt="Olukayode Ramos" className="h-12 w-12 rounded-full object-cover" />
+                <img src="/images/About/Ramos.png" alt="Olukayode Ramos" className="h-12 w-12 rounded-full object-cover" />
                 <div className="leading-tight">
                   <p className="font-semibold text-gray-900">Olukayode Ramos</p>
                   <p className="text-xs text-gray-500">CEO, Ramos Energy Limited</p>
@@ -71,7 +71,7 @@ export default function MiningPage() {
             {/* Left Image */}
             <div className="tenement-image overflow-hidden rounded-2xl shadow-lg">
               <img
-                src="/images/img6.jpg"
+                src="/images/Mining/img6.jpg"
                 alt="Coal tenements and mining site"
                 className="w-full h-[340px] md:h-[480px] lg:h-[560px] object-cover"
               />

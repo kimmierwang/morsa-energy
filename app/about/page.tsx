@@ -40,7 +40,7 @@ export default function AboutPage() {
 
             <div className="mt-8 flex items-center gap-4">
               <div className="w-14 h-14 rounded-full overflow-hidden flex-shrink-0">
-                <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={56} height={56} className="object-cover w-full h-full" />
+                <Image src="/images/About/Ramos.png" alt="Olukayode Ramos" width={56} height={56} className="object-cover w-full h-full" />
               </div>
               <div>
                 <div className="font-semibold">Olukayode Ramos</div>
@@ -50,7 +50,7 @@ export default function AboutPage() {
           </div>
 
           <div className="overflow-hidden rounded-2xl shadow">
-            <Image src="/images/Abt-image1.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
+            <Image src="/images/About/Abt-image1.png" alt="Mining operations" width={900} height={580} className="w-full h-full object-cover rounded-2xl" />
           </div>
         </section>
       </main>
@@ -60,7 +60,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
             <div className="overflow-hidden rounded-2xl">
-              <Image src="/images/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-80 object-cover rounded-2xl" />
+              <Image src="/images/About/Abt-image.png" alt="Engineering" width={700} height={480} className="w-full h-48 md:h-80 object-cover rounded-2xl" />
             </div>
             <div>
               <h3 className="text-2xl md:text-3xl font-bold mb-4">Engineering Sustainable Growth</h3>
@@ -92,17 +92,17 @@ export default function AboutPage() {
             {/* Column 1 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal1.png" alt="CSR 1" className="w-full h-70 object-cover" />
+                <img src="/images/About/gal1.png" alt="CSR 1" className="w-full h-70 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal4.png" alt="CSR 4" className="w-full h-70 object-cover" />
+                <img src="/images/About/gal4.png" alt="CSR 4" className="w-full h-70 object-cover" />
               </div>
             </div>
 
             {/* Column 2 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
+                <img src="/images/About/gal2.png" alt="CSR 2" className="w-full h-40 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
                 <img src="/images/gal5.png" alt="CSR 5" className="w-full h-100 object-cover" />
@@ -112,10 +112,10 @@ export default function AboutPage() {
             {/* Column 3 */}
             <div className="flex flex-col gap-6">
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal3.png" alt="CSR 3" className="w-full h-70 object-cover" />
+                <img src="/images/About/gal3.png" alt="CSR 3" className="w-full h-70 object-cover" />
               </div>
               <div className="overflow-hidden rounded-3xl shadow-lg">
-                <img src="/images/gal6.png" alt="CSR 6" className="w-full h-70 object-cover" />
+                <img src="/images/About/gal6.png" alt="CSR 6" className="w-full h-70 object-cover" />
               </div>
             </div>
           </div>
@@ -228,7 +228,7 @@ export default function AboutPage() {
               {/* Card 1 */}
            <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Ramos.png"
+      src="/images/About/Ramos.png"
       alt="Olukayode Ramos"
       width={600}
       height={800}
@@ -245,7 +245,7 @@ export default function AboutPage() {
   {/* Card 2 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Daniel.png"
+      src="/images/About/Daniel.png"
       alt="Daniel Monwuba"
       width={600}
       height={800}
@@ -262,7 +262,7 @@ export default function AboutPage() {
   {/* Card 3 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/lawal.png"
+      src="/images/About/lawal.png"
       alt="Engr. Muntari Lawal"
       width={600}
       height={800}
@@ -280,7 +280,7 @@ export default function AboutPage() {
   {/* Card 4 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Chukwuma.png"
+      src="/images/About/Chukwuma.png"
       alt="Chukwuma Chukwuekwu"
       width={600}
       height={800}
@@ -297,7 +297,7 @@ export default function AboutPage() {
   {/* Card 5 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Ali.png"
+      src="/images/About/Ali.png"
       alt="Ahmed Ali"
       width={600}
       height={800}
@@ -314,7 +314,7 @@ export default function AboutPage() {
   {/* Card 6 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Abubakar.png"
+      src="/images/About/Abubakar.png"
       alt="Abubakar Ibrahim"
       width={600}
       height={800}
@@ -332,7 +332,7 @@ export default function AboutPage() {
   {/* Card 7 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Ishola.png"
+      src="/images/About/Ishola.png"
       alt="Ishola Emmanuel Aderopo"
       width={600}
       height={800}
@@ -349,7 +349,7 @@ export default function AboutPage() {
   {/* Card 8 */}
   <div className="relative rounded-2xl overflow-hidden shadow-lg">
     <Image
-      src="/images/Babatunde.png"
+      src="/images/About/Babatunde.png"
       alt="Babatunde Olanrewaju Emmanuel"
       width={600}
       height={800}

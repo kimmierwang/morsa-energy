@@ -27,7 +27,7 @@ export default function Kogi() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/kg1.png"
+              src="/images/Kogi/Img1.png"
               alt="Kaduna-image"
               fill
               priority
@@ -67,7 +67,7 @@ export default function Kogi() {
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/kg2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/Kogi/Img2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -114,21 +114,21 @@ export default function Kogi() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                           {/* Card 1 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg3.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
+                            <Image src="/images/Kogi/Img3.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           {/* Card 2 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg4.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img4.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           {/* Card 3 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg5.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img5.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4"> 
                             </div>
                           </div>
@@ -137,21 +137,21 @@ export default function Kogi() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                           {/* Card 1 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg6.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
+                            <Image src="/images/Kogi/Img6.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           {/* Card 2 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg7.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img7.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           {/* Card 3 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg8.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img8.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">    
                             </div>
                           </div>
@@ -160,7 +160,7 @@ export default function Kogi() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                           {/* Card 1 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg9.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
+                            <Image src="/images/Kogi/Img9.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
@@ -174,7 +174,7 @@ export default function Kogi() {
             
                           {/* Card 3 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg11.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img11.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
@@ -182,19 +182,19 @@ export default function Kogi() {
             
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg12.jpg" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img12.jpg" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg13.jpg" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img13.jpg" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/kg14.jpg" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Kogi/Img14.jpg" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>

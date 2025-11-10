@@ -27,7 +27,7 @@ export default function Delta() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/del1.png"
+              src="/images/Delta/Img1.png"
               alt="Mining site landscape"
               fill
               priority
@@ -68,7 +68,7 @@ export default function Delta() {
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/Delta/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -86,7 +86,7 @@ export default function Delta() {
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map11.jpg" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/Delta/map11.jpg" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -102,7 +102,7 @@ export default function Delta() {
                             {/* Card 1 */}
                                     <div className="relative rounded-2xl overflow-hidden shadow-lg">
                              <Image
-                               src="/images/del2.jpg"
+                               src="/images/Delta/Img2.jpg"
                                alt="Olukayode Ramos"
                                width={600}
                                height={800}
@@ -118,7 +118,7 @@ export default function Delta() {
                            {/* Card 2 */}
                            <div className="relative rounded-2xl overflow-hidden shadow-lg">
                              <Image
-                               src="/images/del3.jpg"
+                               src="/images/Delta/Img3.jpg"
                                alt="Daniel Monwuba"
                                width={600}
                                height={800}
@@ -134,7 +134,7 @@ export default function Delta() {
                            {/* Card 3 */}
                            <div className="relative rounded-2xl overflow-hidden shadow-lg">
                              <Image
-                               src="/images/del4.jpg"
+                               src="/images/Delta/Img4.jpg"
                                alt="Engr. Muntari Lawal"
                                width={600}
                                height={800}
@@ -150,19 +150,19 @@ export default function Delta() {
             
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/del5.jpg" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Delta/Img5.jpg" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/del6.jpg" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Delta/Img6.jpg" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/del7.jpg" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/Delta/Img7.jpg" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
                             </div>
                           </div>

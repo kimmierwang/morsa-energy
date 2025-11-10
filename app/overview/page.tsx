@@ -29,7 +29,7 @@ export default function Overview() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/ow1.jpg"
+              src="/images/Overview/Img1.jpg"
               alt="Mining site landscape"
               fill
               priority
@@ -96,7 +96,7 @@ export default function Overview() {
               <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-6">
                   <Image
-                    src="/images/ow2.png"
+                    src="/images/Overview/Img2.png"
                     alt="Mining site aerial"
                     width={600}
                     height={800}
@@ -105,7 +105,7 @@ export default function Overview() {
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-6">
                   <Image
-                    src="/images/ow3.png"
+                    src="/images/Overview/Img3.png"
                     alt="Coal truck and loader"
                     width={600}
                     height={800}
@@ -159,7 +159,7 @@ export default function Overview() {
               <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-6">
                   <Image
-                    src="/images/ow4.png"
+                    src="/images/Overview/Img4.png"
                     alt="Mining site aerial"
                     width={600}
                     height={800}
@@ -168,7 +168,7 @@ export default function Overview() {
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-6">
                   <Image
-                    src="/images/ow.png"
+                    src="/images/Overview/Img.png"
                     alt="Coal truck and loader"
                     width={600}
                     height={800}
@@ -221,7 +221,7 @@ export default function Overview() {
               <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-6">
                   <Image
-                    src="/images/ow5.png"
+                    src="/images/Overview/Img5.png"
                     alt="Mining site aerial"
                     width={600}
                     height={800}
@@ -230,7 +230,7 @@ export default function Overview() {
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-6">
                   <Image
-                    src="/images/ow6.png"
+                    src="/images/Overview/Img6.png"
                     alt="Coal truck and loader"
                     width={600}
                     height={800}
@@ -283,7 +283,7 @@ export default function Overview() {
               <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-6">
                   <Image
-                    src="/images/ow7.png"
+                    src="/images/Overview/Img7.png"
                     alt="Mining site aerial"
                     width={600}
                     height={800}
@@ -292,7 +292,7 @@ export default function Overview() {
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-6">
                   <Image
-                    src="/images/ow8.png"
+                    src="/images/Overview/Img8.png"
                     alt="Coal truck and loader"
                     width={600}
                     height={800}
@@ -345,7 +345,7 @@ export default function Overview() {
               <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-6">
                   <Image
-                    src="/images/ow9.png"
+                    src="/images/Overview/Img9.png"
                     alt="Mining site aerial"
                     width={600}
                     height={800}
@@ -354,7 +354,7 @@ export default function Overview() {
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-6">
                   <Image
-                    src="/images/ow10.png"
+                    src="/images/Overview/Img10.png"
                     alt="Coal truck and loader"
                     width={600}
                     height={800}
@@ -406,7 +406,7 @@ export default function Overview() {
               <div className="flex flex-col md:flex-row md:space-x-6 space-y-6 md:space-y-0">
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform translate-y-6">
                   <Image
-                    src="/images/ow10.png"
+                    src="/images/Overview/Img11.png"
                     alt="Mining site aerial"
                     width={600}
                     height={800}
@@ -415,7 +415,7 @@ export default function Overview() {
                 </div>
                 <div className="flex-1 overflow-hidden rounded-2xl bg-gray-50 shadow-sm transform -translate-y-6">
                   <Image
-                    src="/images/ow11.png"
+                    src="/images/Overview/Img12.png"
                     alt="Coal truck and loader"
                     width={600}
                     height={800}

@@ -25,21 +25,21 @@ export default function PowerPage() {
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl shadow-lg">
-              <img src="/images/pe5.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px] object-cover rounded-3xl" />
+              <img src="/images/PowerEnergy/Img5.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px] object-cover rounded-3xl" />
 
               <div className="absolute -top-8 left-6 flex items-center z-10">
                 <div className="flex items-center -space-x-3">
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
-                    <img src="/images/pe1.png" alt="thumb 1" className="w-full h-full object-cover" />
+                    <img src="/images/PowerEnergy/Img1.png" alt="thumb 1" className="w-full h-full object-cover" />
                   </div>
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
-                    <img src="/images/pe2.png" alt="thumb 2" className="w-full h-full object-cover" />
+                    <img src="/images/PowerEnergy/Img2.png" alt="thumb 2" className="w-full h-full object-cover" />
                   </div>
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
-                    <img src="/images/pe3.png" alt="thumb 3" className="w-full h-full object-cover" />
+                    <img src="/images/PowerEnergy/Img3.png" alt="thumb 3" className="w-full h-full object-cover" />
                   </div>
                   <div className="w-14 h-14 rounded-full overflow-hidden border-2 border-white bg-white shadow-sm">
-                    <img src="/images/pe4.png" alt="thumb 4" className="w-full h-full object-cover" />
+                    <img src="/images/PowerEnergy/Img4.png" alt="thumb 4" className="w-full h-full object-cover" />
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@ export default function PowerPage() {
       {/* Left Image */}
       <div className="w-[90%] md:w-[42%] overflow-hidden rounded-r-[5rem] md:rounded-r-full md:rounded-l-none shadow-lg">
         <img
-          src="/images/pe6.jpg"
+          src="/images/PowerEnergy/Img6.jpg"
           alt="Transmission towers"
           className="w-full h-[150px] md:h-[240px] object-cover"
         />
@@ -80,7 +80,7 @@ export default function PowerPage() {
       {/* Right Image */}
       <div className="w-[90%] md:w-[42%] overflow-hidden rounded-l-[5rem] md:rounded-l-full md:rounded-r-none shadow-lg">
         <img
-          src="/images/pe7.jpg"
+          src="/images/PowerEnergy/Img7.jpg"
           alt="Engineer on site"
           className="w-full h-[150px] md:h-[240px] object-cover"
         />
@@ -109,7 +109,7 @@ export default function PowerPage() {
          <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/pe12.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/PowerEnergy/Img12.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -144,7 +144,7 @@ export default function PowerPage() {
               <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/pe10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/PowerEnergy/Img10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -162,7 +162,7 @@ export default function PowerPage() {
               <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/pe11.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/PowerEnergy/Img11.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
