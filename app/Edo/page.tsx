@@ -10,10 +10,9 @@ export default function Edo() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Left Title */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2">
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-full after:h-[1px] after:bg-red-600 after:mt-2">
               Edo Limestone Project
             </h1>
-            <div className="w-16 h-[2px] bg-red-500 mb-4"></div>
           </div>
 
           {/* Right Paragraph */}
@@ -28,7 +27,7 @@ export default function Edo() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/pe10.png"
+              src="/images/ed1.png"
               alt="Mining site landscape"
               fill
               priority
@@ -43,17 +42,11 @@ export default function Edo() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="md:col-span-1">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Tunde Ramos Coal Mines (TRCM) – Sub-Bituminous Coal</h2>
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Edo Limestone Project – Strengthening Nigeria’s Industrial Foundations</h2>
               </div>
               <div className="md:col-span-2 space-y-5 text-gray-700 leading-relaxed text-sm md:text-base">
                 <p>
-                 Mosra Energy Limited (MEL) holds Mining Lease No. 24884ML for the Tunde Ramos Coal Mines (TRCM), located within the Ogboyaga-Okaba sub-bituminous coal deposits across Odele, Ichala, Manejo, Ika Ilorin, and Ikah Edeto in Ankpa and Omala LGAs, Kogi State, North Central Nigeria. 
-                </p>
-                <p>
-                 The project area covers 22 km² and was established following extensive exploration and geological assessments confirming rich, continuous seams of high-quality coal. The coal exhibits high energy content, low ash and sulfur levels, and excellent friability, making it ideal for efficient power generation and industrial applications. 
-                </p>
-                  <p>      
-                    Geologically, the deposit lies within the prolific Anambra Basin, formed from dense tropical vegetation in stable deltaic environments, providing predictable stratigraphy and long-term mining potential.
+                  The company’s presence is in two states (Edo and Benue Sate) of Nigeria where exploration activity is being planned for Limestone projects. The Edo site is located in Akoko-Edo and Owan East Local Government Area of the State while Benue site is located in Gboko Local Government Area in the State.
                 </p>
               </div>
             </div>
@@ -62,13 +55,13 @@ export default function Edo() {
 
       {/* --- Project Showcase Section --- */}
     <div className="text-center mt-8">
-            <h2 className="mt-6 text-2xl md:text-2xl font-bold">Kogi Site Location Plan (MAP)</h2>
+            <h2 className="mt-6 text-2xl md:text-2xl font-bold">Edo Limestone Site Map</h2>
           </div>
 
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/ed2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -82,7 +75,7 @@ export default function Edo() {
                 <span className="activity-number font-semibold text-gray-600">01</span>
                 <div className="flex-1 border-t border-gray-300" />
               </div>
-              <p className="text-sm text-gray-700">145 boreholes were drilled by MEL within its five EL licenses in Kogi sub-bituminous coal mine site which is consolidated into one license 20288 for resource estimation.</p>
+              <p className="text-sm text-gray-700">The deposit occurs at about 2.00m beneath the surface</p>
             </div>
 
             <div className="activity-card bg-white">
@@ -90,7 +83,7 @@ export default function Edo() {
                 <span className="activity-number font-semibold text-gray-600">02</span>
                 <div className="flex-1 border-t border-gray-300" />
               </div>
-              <p className="text-sm text-gray-700">3 coal seams were intersected with seam A being the topmost and potential seam having consistent throughout the block.</p>
+              <p className="text-sm text-gray-700">48.57 – 52.62% CaO, 0.09 - 0.24% Fe2O3, 0.62 – 6.34% MgO, 1.10 - 2.75% SiO, 41.69 - 42.90% LOI with average relative density of 2.74</p>
             </div>
 
             <div className="activity-card bg-white">
@@ -98,7 +91,7 @@ export default function Edo() {
                 <span className="activity-number font-semibold text-gray-600">03</span>
                 <div className="flex-1 border-t border-gray-300" />
               </div>
-              <p className="text-sm text-gray-700">The thickness range is between 1.00 – 2.15 m and average seam thickness is about 1.47 m.</p>
+              <p className="text-sm text-gray-700">Deposit estimated thickness is about 15.00m. 15 Pilot exploratory boreholes proposed within the suspected potential area</p>
             </div>
             </div>
         </div>

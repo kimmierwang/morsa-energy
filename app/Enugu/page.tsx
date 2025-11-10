@@ -7,19 +7,19 @@ export default function Enugu() {
     <div className="bg-white text-gray-900">
       {/* --- Overview Section --- */}
       <section className="py-16">
-        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
+        <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start ">
           {/* Left Title */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2">
-              Edo Limestone Project
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-full after:h-[1px]
+             after:bg-red-600 after:mt-2">
+              Enugu Coal Project
             </h1>
-            <div className="w-16 h-[2px] bg-red-500 mb-4"></div>
           </div>
 
           {/* Right Paragraph */}
           <div>
             <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-            Mosra Energy Limited’s limestone exploration program in Edo State spans Akoko-Edo and Owan East regions, where pilot drilling and geological surveys have identified promising mineralization zones. Analyses show high calcium oxide content and consistent deposit thickness, positioning the area as a viable source for cement production. 
+            Mosra Energy Limited is developing the Akinyemi Olasewere Coal Mines (AOCM) to harness the region’s premium sub-bituminous coal reserves and strengthen Nigeria’s energy and industrial sectors. 
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function Enugu() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/pe10.png"
+              src="/images/en1.jpg"
               alt="Mining site landscape"
               fill
               priority
@@ -43,32 +43,27 @@ export default function Enugu() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="md:col-span-1">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Tunde Ramos Coal Mines (TRCM) – Sub-Bituminous Coal</h2>
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Akinyemi Olasewere Coal Mines (AOCM)- High-Grade Sub-Bituminous Coal</h2>
               </div>
               <div className="md:col-span-2 space-y-5 text-gray-700 leading-relaxed text-sm md:text-base">
                 <p>
-                 Mosra Energy Limited (MEL) holds Mining Lease No. 24884ML for the Tunde Ramos Coal Mines (TRCM), located within the Ogboyaga-Okaba sub-bituminous coal deposits across Odele, Ichala, Manejo, Ika Ilorin, and Ikah Edeto in Ankpa and Omala LGAs, Kogi State, North Central Nigeria. 
+                Located across Ezimo, Ezimo Ago, Umuosigide, Obollo Nkwo, and Obollo Orie in Udenu LGA, Enugu State, the Akinyemi Olasewere Coal Mines span an area of 23.4 km² within the prolific Anambra Basin. The deposit hosts dense, high-carbon sub-bituminous coal with low moisture, excellent grindability, and superior coking potential.
+                  Its bright, banded texture and stable geological formation make it ideal for metallurgical and thermal power applications, reinforcing Mosra Energy’s role in advancing Nigeria’s sustainable energy landscape.
                 </p>
-                <p>
-                 The project area covers 22 km² and was established following extensive exploration and geological assessments confirming rich, continuous seams of high-quality coal. The coal exhibits high energy content, low ash and sulfur levels, and excellent friability, making it ideal for efficient power generation and industrial applications. 
-                </p>
-                  <p>      
-                    Geologically, the deposit lies within the prolific Anambra Basin, formed from dense tropical vegetation in stable deltaic environments, providing predictable stratigraphy and long-term mining potential.
-                </p>
-              </div>
+                   </div>
             </div>
           </div>
         </section>
 
       {/* --- Project Showcase Section --- */}
     <div className="text-center mt-8">
-            <h2 className="mt-6 text-2xl md:text-2xl font-bold">Kogi Site Location Plan (MAP)</h2>
+            <h2 className="mt-6 text-2xl md:text-2xl font-bold">Enugu Site Location Plan (MAP)</h2>
           </div>
 
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/en2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>

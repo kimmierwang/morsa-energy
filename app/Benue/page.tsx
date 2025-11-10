@@ -10,16 +10,15 @@ export default function Benue() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Left Title */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2">
-              Delta Lignite Project 
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-full after:h-[1px] after:bg-red-600 after:mt-2">
+              Benue Limestone  Project
             </h1>
-            <div className="w-16 h-[2px] bg-red-500 mb-4"></div>
           </div>
 
           {/* Right Paragraph */}
           <div>
             <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-              Building the foundation for a sustainable energy future from Delta’s rich lignite reserves.
+             Mosra Energy Limited is currently conducting geological surveys and exploratory drilling to assess the limestone potential within Benue State. The project aims to identify high-grade limestone deposits that will support future cement production and industrial development.
             </p>
           </div>
         </div>
@@ -28,7 +27,7 @@ export default function Benue() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/pe10.png"
+              src="/images/bu1.png"
               alt="Mining site landscape"
               fill
               priority
@@ -43,18 +42,14 @@ export default function Benue() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="md:col-span-1">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Idowu Falola Coal Mines (IFCM)- Lignite Resource </h2>
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Benue Limestone Project – Exploration in Progress</h2>
               </div>
               <div className="md:col-span-2 space-y-5 text-gray-700 leading-relaxed text-sm md:text-base">
                 <p>
-                 The Delta Lignite Mine Project lies within the Azagba-Ogwuashi Lignite Formation, about 5 km off the Benin–Onitsha highway with an area of 11.4 km². Mosra Energy explored Exploration Licence (EL) Block 20981, drilling 112 boreholes (96 RC and 16 Core) at 250m x 250m spacing.
+                Mosra Energy Limited is developing the Benue Limestone Project in Akpagher, Gboko LGA, to harness high-grade limestone deposits (45% CaO) ideal for cement, lime, and chemical production. The deposit lies within the Cretaceous Eze-Aku Formation of the Middle Benue Trough, featuring massive, easily quarriable beds with minimal overburden.
                 </p>
                 <p>
-                 Five lignite seams (A–E) were identified at depths between 7.75m and 77.1m, with an average thickness of 5.5m. The deposit occurs within sandstone, clay, mudstone, carbonaceous shale, and lignite formations.
-                    The lignite is uniform brownish-black, with high volatile matter, excellent reactivity, and a fibrous texture — ideal for thermal power generation.
-                </p>
-                  <p>
-                 Geologically, the deposit lies within the Tertiary Niger Delta Formation, featuring thick, laterally extensive seams embedded in stable clay-shale sequences. Exceptional preservation across the deposit ensures a consistent calorific value, reinforcing its reliability for future energy projects
+                Covering an area of 9.6 km², the project is currently in the exploration phase, with ongoing geological studies and drilling to assess full potential. Once operational, it will support Nigeria’s cement industry while fostering local employment and sustainable infrastructure development.
                 </p>
               </div>
             </div>
@@ -63,28 +58,28 @@ export default function Benue() {
 
       {/* --- Project Showcase Section --- */}
     <div className="text-center mt-8">
-            <h2 className="mt-6 text-2xl md:text-2xl font-bold">Delta Site Location Plan (MAP)</h2>
+            <h2 className="mt-6 text-2xl md:text-2xl font-bold">Benue Site Location Plan (MAP)</h2>
           </div>
 
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/bu2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
 
           <section className="transmission-section py-10 border-t border-gray-200 mb-8">
                  <div className="text-center mb-8">
-            <h2 className="mt-6 text-3xl md:text-4xl font-bold">Meet Our Leadership Team</h2>
-            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Dedicated professionals leading the charge in engineering reliable infrastructure for a sustainable future.</p>
+            <h2 className="mt-6 text-3xl md:text-4xl font-bold">Benue Limestone Project</h2>
+              <div className="mt-8 text-gray-600 max-w-2xl mx-auto font-semibold">Exploration Drilling Programme is in Progress"</div>
           </div>
         </section>
 
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map11.jpg" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/bu3.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>

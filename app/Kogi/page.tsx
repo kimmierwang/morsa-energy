@@ -10,10 +10,9 @@ export default function Kogi() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Left Title */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2">
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-full after:h-[1px] after:bg-red-600 after:mt-2">
               Kogi Coal Project
             </h1>
-            <div className="w-16 h-[2px] bg-red-500 mb-4"></div>
           </div>
 
           {/* Right Paragraph */}
@@ -28,8 +27,8 @@ export default function Kogi() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/pe10.png"
-              alt="Mining site landscape"
+              src="/images/kg1.png"
+              alt="Kaduna-image"
               fill
               priority
               className="object-cover"
@@ -68,7 +67,7 @@ export default function Kogi() {
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/kg2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -106,6 +105,7 @@ export default function Kogi() {
 
             <div className="text-center mt-8">
             <h2 className="mt-6 text-2xl md:text-2xl font-bold">KOGI COAL CORE SAMPLE PHOTOGRAPH, GEOLOGICAL DESCRIPTION and ASSAY DATA REPORT</h2>
+            <div className="mt-3 text-gray-600 max-w-full font-semibold mx-auto">Core boxes 1 - 10 for borehole N-4 with one coal seams (seam A) having thickness of 1.91m with seam intersection depth at 26.41m.</div>
           </div>
             
                   <section id="team" className="py-12 bg-white">
@@ -114,28 +114,22 @@ export default function Kogi() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                           {/* Card 1 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
+                            <Image src="/images/kg3.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Olukayode Ramos</div>
-                              <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
                             </div>
                           </div>
             
                           {/* Card 2 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg4.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Daniel Monwuba</div>
-                              <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
                             </div>
                           </div>
             
                           {/* Card 3 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
-                              <div className="text-xs text-white/80">Group Project Manager</div>
+                            <Image src="/images/kg5.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4"> 
                             </div>
                           </div>
                         </div>
@@ -143,28 +137,22 @@ export default function Kogi() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                           {/* Card 1 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
+                            <Image src="/images/kg6.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Olukayode Ramos</div>
-                              <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
                             </div>
                           </div>
             
                           {/* Card 2 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg7.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Daniel Monwuba</div>
-                              <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
                             </div>
                           </div>
             
                           {/* Card 3 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
-                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
-                              <div className="text-xs text-white/80">Group Project Manager</div>
+                            <Image src="/images/kg8.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">    
                             </div>
                           </div>
                         </div>
@@ -172,54 +160,42 @@ export default function Kogi() {
                         <div className="grid grid-cols-2 sm:grid-cols-3 gap-6">
                           {/* Card 1 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Ramos.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
+                            <Image src="/images/kg9.png" alt="Olukayode Ramos" width={800} height={800} className="w-full h-[35rem] object-cover md:col-span-3" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Olukayode Ramos</div>
-                              <div className="text-xs text-white/80">Chief Executive Officer, Mosra Energy Ltd.</div>
                             </div>
                           </div>
             
                           {/* Card 2 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Daniel.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg10.png" alt="Daniel Monwuba" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Daniel Monwuba</div>
-                              <div className="text-xs text-white/80">Group Head, Procurement, Sales & Marketing</div>
                             </div>
                           </div>
             
                           {/* Card 3 */}
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/lawal.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg11.png" alt="Engr. Muntari Lawal" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Engr. Muntari Lawal, FNSE</div>
-                              <div className="text-xs text-white/80">Group Project Manager</div>
                             </div>
                           </div>
                         </div>
             
                         <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Chukwuma.png" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg12.jpg" alt="Chukwuma Chukwuekwu" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Chukwuma Chukwuekwu</div>
-                              <div className="text-xs text-white/80">Group Head, Accounts & Finance</div>
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Ali.png" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg13.jpg" alt="Ahmed Ali" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Ahmed Ali</div>
-                              <div className="text-xs text-white/80">Group Head, Human Resources & Corporate Services</div>
                             </div>
                           </div>
             
                           <div className="relative rounded-2xl overflow-hidden shadow-lg">
-                            <Image src="/images/Abubakar.png" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
+                            <Image src="/images/kg14.jpg" alt="Abubakar Ibrahim" width={600} height={800} className="w-full h-[35rem] object-cover" />
                             <div className="absolute left-0 right-0 bottom-0 bg-gradient-to-t from-black/70 to-transparent p-4">
-                              <div className="text-white font-semibold">Abubakar Ibrahim</div>
-                              <div className="text-xs text-white/80">Head, Mineral Exploration</div>
                             </div>
                           </div>
                         </div>

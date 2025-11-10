@@ -8,7 +8,8 @@ export default function AboutPage() {
       <section className="bg-[#f9ecec] py-12">
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
-            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-45 after:h-[1px] after:bg-red-600 after:mt-2">About Us</h1>
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-45 after:h-[1px]
+             after:bg-red-600 after:mt-2">About Us</h1>
 
             <p className="text-sm text-gray-700">
               From energy to mining, Mosra Energy’s footprint spans multiple

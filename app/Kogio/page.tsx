@@ -10,16 +10,16 @@ export default function Kogi2() {
         <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
           {/* Left Title */}
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-red-600 mb-2">
-              Kogi Coal Project
+            <h1 className="relative inline-block text-3xl md:text-4xl font-bold text-red-600 after:content-[''] after:block after:w-full after:h-[1px]
+             after:bg-red-600 after:mt-2">
+              Kogi Oolitic/Pisolitic Iron Ore Project
             </h1>
-            <div className="w-16 h-[2px] bg-red-500 mb-4"></div>
           </div>
 
           {/* Right Paragraph */}
           <div>
             <p className="text-gray-700 leading-relaxed text-sm md:text-base">
-                    Developing reliable coal resources to power industries and drive economic growth.
+              Mosra Energy Limited is developing the Kogi Iron Ore Project to unlock the region’s vast iron ore potential and support Nigeria’s steel and infrastructure industries.
             </p>
           </div>
         </div>
@@ -28,7 +28,7 @@ export default function Kogi2() {
         <div className="mt-10">
           <div className="relative w-full h-[400px] md:h-[480px] lg:h-[450px]">
             <Image
-              src="/images/pe10.png"
+              src="/images/kgo1.png"
               alt="Mining site landscape"
               fill
               priority
@@ -43,17 +43,17 @@ export default function Kogi2() {
           <div className="max-w-7xl mx-auto px-6">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
               <div className="md:col-span-1">
-                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Tunde Ramos Coal Mines (TRCM) – Sub-Bituminous Coal</h2>
+                <h2 className="text-2xl md:text-3xl font-semibold text-gray-900">Kogi Iron Ore Project – High-Grade Hematite-Goethite Ore</h2>
               </div>
               <div className="md:col-span-2 space-y-5 text-gray-700 leading-relaxed text-sm md:text-base">
                 <p>
-                 Mosra Energy Limited (MEL) holds Mining Lease No. 24884ML for the Tunde Ramos Coal Mines (TRCM), located within the Ogboyaga-Okaba sub-bituminous coal deposits across Odele, Ichala, Manejo, Ika Ilorin, and Ikah Edeto in Ankpa and Omala LGAs, Kogi State, North Central Nigeria. 
+                Mosra Energy Limited is advancing the Kogi Iron Ore Project, strategically located across Koton Karfe and Onzo in Kogi LGA, Kogi State, as part of its commitment to strengthening Nigeria’s raw material base for steel and infrastructure development. 
                 </p>
                 <p>
-                 The project area covers 22 km² and was established following extensive exploration and geological assessments confirming rich, continuous seams of high-quality coal. The coal exhibits high energy content, low ash and sulfur levels, and excellent friability, making it ideal for efficient power generation and industrial applications. 
+                 The Kogi site, situated on the Koton Karfe plateau, hosts oolitic and pisolitic hematite-goethite ore with iron (Fe) content exceeding 58%, characterized by excellent porosity that enhances beneficiation efficiency
                 </p>
                   <p>      
-                    Geologically, the deposit lies within the prolific Anambra Basin, formed from dense tropical vegetation in stable deltaic environments, providing predictable stratigraphy and long-term mining potential.
+                    Geologically, the deposit lies within the Cretaceous Bida Basin, featuring lateritic ironstone enriched with consistent mineralization zones. With shallow overburden and high recovery potential, the project promises cost-effective extraction and long-term operational sustainability
                 </p>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Kogi2() {
            <section className="Delta-Map py-8">
           <div className="max-w-6xl mx-auto px-8">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map10.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/kgo2.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>
@@ -82,7 +82,7 @@ export default function Kogi2() {
                 <span className="activity-number font-semibold text-gray-600">01</span>
                 <div className="flex-1 border-t border-gray-300" />
               </div>
-              <p className="text-sm text-gray-700">145 boreholes were drilled by MEL within its five EL licenses in Kogi sub-bituminous coal mine site which is consolidated into one license 20288 for resource estimation.</p>
+              <p className="text-sm text-gray-700">Depth of occurrence ranges from about 1.50 – 40.00 m 3 pit samples sent for analysis returned with 51.01% Fe, 0.873% P, 0.022% S and 5.45% Si, 3.50gm/cc SG, Mag Sus 308 EMU 11% LOI.</p>
             </div>
 
             <div className="activity-card bg-white">
@@ -90,7 +90,7 @@ export default function Kogi2() {
                 <span className="activity-number font-semibold text-gray-600">02</span>
                 <div className="flex-1 border-t border-gray-300" />
               </div>
-              <p className="text-sm text-gray-700">3 coal seams were intersected with seam A being the topmost and potential seam having consistent throughout the block.</p>
+              <p className="text-sm text-gray-700">Average ore thickness is 12.38 m and estimated resources of 168 Mt</p>
             </div>
 
             <div className="activity-card bg-white">
@@ -98,22 +98,22 @@ export default function Kogi2() {
                 <span className="activity-number font-semibold text-gray-600">03</span>
                 <div className="flex-1 border-t border-gray-300" />
               </div>
-              <p className="text-sm text-gray-700">The thickness range is between 1.00 – 2.15 m and average seam thickness is about 1.47 m.</p>
+              <p className="text-sm text-gray-700">Pilot exploratory drilling is ongoing with proposed 25 Core and 30 RC boreholes.</p>
             </div>
             </div>
         </div>
       </section>
       <section className="transmission-section py-10 border-t border-gray-200 mb-8">
                  <div className="text-center mb-8">
-            <h2 className="mt-6 text-3xl md:text-4xl font-bold">Meet Our Leadership Team</h2>
-            <p className="mt-3 text-gray-600 max-w-2xl mx-auto">Dedicated professionals leading the charge in engineering reliable infrastructure for a sustainable future.</p>
+            <h2 className="mt-6 text-3xl md:text-4xl font-bold">Kogi Iron Ore Project</h2>
+              <div className="mt-8 text-gray-600 max-w-2xl mx-auto font-semibold">Exploration Drilling Programme is in Progress</div>
           </div>
         </section>
 
         <section className="power-hero-section py-6">
           <div className="max-w-7xl mx-auto px-6">
             <div className="relative overflow-visible rounded-3xl">
-              <img src="/images/map11.jpg" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
+              <img src="/images/kgo3.png" alt="Power infrastructure" className="w-full h-[360px] md:h-[420px] lg:h-[480px]" />
             </div>
           </div>
         </section>

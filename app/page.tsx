@@ -17,7 +17,7 @@ export default function Home() {
               <Link href="/Kogio" className="px-6 py-3 rounded-full bg-red-600 text-white text-lg shadow">Kogio</Link>
                 <Link href="/Enugu" className="px-6 py-3 rounded-full bg-red-600 text-white text-lg shadow">Enugu</Link>
                 <Link href="/Kogib" className="px-6 py-3 rounded-full bg-red-600 text-white text-lg shadow">Kogib</Link>
-                {/* <Link href="/Kaduna" className="px-6 py-3 rounded-full bg-red-600 text-white text-lg shadow">Kaduna</Link> */}
+                <Link href="/Kaduna" className="px-6 py-3 rounded-full bg-red-600 text-white text-lg shadow">Kaduna</Link>
       </div>
     </div>
   );
