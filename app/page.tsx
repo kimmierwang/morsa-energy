@@ -5,6 +5,7 @@ import Services from "../components/Services";
 import Expertise from "../components/Expertise";
 import Projects from "../components/Projects";
 import Footprint from "../components/Footprint";
+import Testimonials from "../components/Testimonials";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Expertise />
       <Projects />
       <Footprint />
+      <Testimonials />
     </main>
   );
 }
