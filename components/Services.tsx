@@ -53,18 +53,20 @@ export default function Services(): JSX.Element {
             ))}
           </div>
 
-          {/* Navigation arrows (visual only) */}
-          <button aria-label="prev" className="hidden md:flex items-center justify-center w-12 h-12 rounded-full border border-red-200 text-red-600 bg-white shadow-md absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-1/2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M12.293 16.293a1 1 0 010 1.414l-6-6a1 1 0 010-1.414l6-6a1 1 0 111.414 1.414L8.414 10l5.293 5.293a1 1 0 010 1.414z" clipRule="evenodd" />
-            </svg>
-          </button>
+          {/* Navigation arrows placed under the first card */}
+          <div className="mt-6 flex justify-center md:justify-start md:pl-0 gap-4">
+            <button aria-label="prev" className="flex items-center justify-center w-12 h-12 rounded-full border border-red-200 text-red-600 bg-white shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M12.293 16.293a1 1 0 010 1.414l-6-6a1 1 0 010-1.414l6-6a1 1 0 111.414 1.414L8.414 10l5.293 5.293a1 1 0 010 1.414z" clipRule="evenodd" />
+              </svg>
+            </button>
 
-          <button aria-label="next" className="hidden md:flex items-center justify-center w-12 h-12 rounded-full border border-red-200 text-red-600 bg-white shadow-md absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-1/2">
-            <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
-              <path fillRule="evenodd" d="M7.707 3.707a1 1 0 010-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L12.586 10 6.293 3.707a1 1 0 011.414-1.414z" clipRule="evenodd" />
-            </svg>
-          </button>
+            <button aria-label="next" className="flex items-center justify-center w-12 h-12 rounded-full border border-red-200 text-red-600 bg-white shadow-md">
+              <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5" viewBox="0 0 20 20" fill="currentColor">
+                <path fillRule="evenodd" d="M7.707 3.707a1 1 0 010-1.414l6 6a1 1 0 010 1.414l-6 6a1 1 0 11-1.414-1.414L12.586 10 6.293 3.707a1 1 0 011.414-1.414z" clipRule="evenodd" />
+              </svg>
+            </button>
+          </div>
         </div>
       </div>
     </section>
