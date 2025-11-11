@@ -5,7 +5,6 @@ const slides = [
   "/images/gal2.png",
   "/images/gal3.png",
   "/images/gal4.png",
-  "/images/gal5.jpg",
 ];
 
 export default function Footprint(): JSX.Element {
