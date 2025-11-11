@@ -6,6 +6,7 @@ import Expertise from "../components/Expertise";
 import Projects from "../components/Projects";
 import Footprint from "../components/Footprint";
 import Testimonials from "../components/Testimonials";
+import FAQ from "../components/FAQ";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Footprint />
       <Testimonials />
+      <FAQ />
     </main>
   );
 }
