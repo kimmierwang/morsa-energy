@@ -25,7 +25,7 @@ export default function Footprint(): JSX.Element {
               {slides.map((src, i) => (
                 <div
                   key={i}
-                  className={`fp-card bg-gray-50 rounded-2xl overflow-hidden shadow-sm relative ${i % 2 === 0 ? "-translate-y-6 md:-translate-y-10" : "translate-y-6 md:translate-y-10"}`}
+                  className="fp-card bg-gray-50 rounded-2xl overflow-hidden shadow-sm relative"
                 >
                   <img src={src} alt={`footprint-${i}`} className="w-[220px] md:w-[260px] h-[140px] md:h-[180px] object-cover rounded-2xl" />
                 </div>
