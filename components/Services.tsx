@@ -39,8 +39,11 @@ export default function Services(): JSX.Element {
         <div className="relative">
           {/* Cards grid */}
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
-            {services.map((s) => (
-              <div key={s.title} className="service-card overflow-hidden rounded-3xl relative bg-gray-50 shadow-sm">
+            {services.map((s, i) => (
+              <div
+                key={s.title}
+                className={`service-card overflow-hidden rounded-3xl relative bg-gray-50 shadow-sm transform ${i % 2 === 0 ? "-translate-y-6 md:-translate-y-8" : "translate-y-6 md:translate-y-8"}`}
+              >
                 <img src={s.image} alt={s.title} className="w-full h-[220px] object-cover rounded-3xl" />
                 <div className="absolute left-0 bottom-0 right-0 p-4 bg-gradient-to-t from-black/60 via-black/10 to-transparent rounded-b-3xl">
                   <h3 className="text-white font-semibold">{s.title}</h3>
