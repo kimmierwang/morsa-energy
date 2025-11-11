@@ -7,6 +7,7 @@ import Projects from "../components/Projects";
 import Footprint from "../components/Footprint";
 import Testimonials from "../components/Testimonials";
 import FAQ from "../components/FAQ";
+import Blog from "../components/Blog";
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <Footprint />
       <Testimonials />
       <FAQ />
+      <Blog />
     </main>
   );
 }
