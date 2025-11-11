@@ -25,53 +25,47 @@ const projects = [
 ];
 
 export default function Projects(): JSX.Element {
-  const containerRef = useRef<HTMLDivElement | null>(null);
+  const trackRef = useRef<HTMLDivElement | null>(null);
+  const viewportRef = useRef<HTMLDivElement | null>(null);
+  const [index, setIndex] = useState(0);
+  const [step, setStep] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
 
-  // Auto-scroll logic
   useEffect(() => {
-    const el = containerRef.current;
-    if (!el) return;
-
-    const CARD_GAP = 24; // matches gap-6
-    const scrollStep = () => {
-      const cardWidth = el.querySelector(".project-card")?.clientWidth || el.clientWidth;
-      // scroll to next card smoothly
-      const next = Math.min(el.scrollLeft + cardWidth + CARD_GAP, el.scrollWidth - el.clientWidth);
-      el.scrollTo({ left: next, behavior: "smooth" });
+    const calcStep = () => {
+      const track = trackRef.current;
+      if (!track) return;
+      const card = track.querySelector(".project-card") as HTMLElement | null;
+      const gap = 24; // gap-6
+      const cardW = (card?.clientWidth ?? 360);
+      setStep(cardW + gap);
     };
 
+    calcStep();
+    window.addEventListener("resize", calcStep);
+    return () => window.removeEventListener("resize", calcStep);
+  }, []);
+
+  // auto-advance index
+  useEffect(() => {
     const interval = setInterval(() => {
       if (!isPaused) {
-        // if at end, scroll back to start
-        if (el.scrollLeft + el.clientWidth >= el.scrollWidth - 2) {
-          el.scrollTo({ left: 0, behavior: "smooth" });
-        } else {
-          scrollStep();
-        }
+        setIndex((i) => (i + 1) % projects.length);
       }
     }, 3000);
-
     return () => clearInterval(interval);
   }, [isPaused]);
 
-  const prev = () => {
-    const el = containerRef.current;
-    if (!el) return;
-    const CARD_GAP = 24;
-    const cardWidth = el.querySelector(".project-card")?.clientWidth || el.clientWidth;
-    const next = Math.max(el.scrollLeft - (cardWidth + CARD_GAP), 0);
-    el.scrollTo({ left: next, behavior: "smooth" });
-  };
+  // when index changes, move track
+  useEffect(() => {
+    const track = trackRef.current;
+    if (!track) return;
+    track.style.transition = "transform 700ms ease";
+    track.style.transform = `translateX(-${index * step}px)`;
+  }, [index, step]);
 
-  const next = () => {
-    const el = containerRef.current;
-    if (!el) return;
-    const CARD_GAP = 24;
-    const cardWidth = el.querySelector(".project-card")?.clientWidth || el.clientWidth;
-    const nextPos = Math.min(el.scrollLeft + (cardWidth + CARD_GAP), el.scrollWidth - el.clientWidth);
-    el.scrollTo({ left: nextPos, behavior: "smooth" });
-  };
+  const prev = () => setIndex((i) => Math.max(0, i - 1));
+  const next = () => setIndex((i) => (i + 1) % projects.length);
 
   return (
     <section id="projects" className="py-16">
@@ -86,26 +80,30 @@ export default function Projects(): JSX.Element {
 
         <div className="relative">
           <div
-            ref={containerRef}
+            ref={viewportRef}
             onMouseEnter={() => setIsPaused(true)}
             onMouseLeave={() => setIsPaused(false)}
-            className="projects-scroll flex gap-6 overflow-x-auto no-scrollbar py-6 scroll-smooth"
-            style={{ WebkitOverflowScrolling: "touch" }}
+            className="overflow-hidden py-6"
           >
-            {projects.map((p) => (
-              <div key={p.title} className="project-card min-w-[260px] md:min-w-[360px] lg:min-w-[420px] bg-gray-50 rounded-3xl overflow-hidden relative shadow-sm">
-                <img src={p.image} alt={p.title} className="w-full h-[300px] object-cover" />
-                <div className="absolute left-0 bottom-0 right-0 p-4 bg-gradient-to-t from-black/60 via-black/10 to-transparent rounded-b-3xl">
-                  <h3 className="text-white font-semibold">{p.title}</h3>
-                  <p className="text-xs text-white/90 mt-1">{p.description}</p>
+            <div ref={trackRef} className="flex gap-6 will-change-transform" style={{ transform: `translateX(-${index * step}px)` }}>
+              {projects.map((p, i) => (
+                <div
+                  key={p.title}
+                  className={`project-card min-w-[260px] md:min-w-[360px] lg:min-w-[420px] bg-gray-50 rounded-3xl overflow-hidden relative shadow-sm transform ${i % 2 === 0 ? "-translate-y-6 md:-translate-y-8" : "translate-y-6 md:translate-y-8"}`}
+                >
+                  <img src={p.image} alt={p.title} className="w-full h-[300px] object-cover" />
+                  <div className="absolute left-0 bottom-0 right-0 p-4 bg-gradient-to-t from-black/60 via-black/10 to-transparent rounded-b-3xl">
+                    <h3 className="text-white font-semibold">{p.title}</h3>
+                    <p className="text-xs text-white/90 mt-1">{p.description}</p>
+                  </div>
+                  <div className="absolute right-4 bottom-4 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md">
+                    <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M12 5l7 7-7 7" />
+                    </svg>
+                  </div>
                 </div>
-                <div className="absolute right-4 bottom-4 w-12 h-12 bg-white rounded-full flex items-center justify-center shadow-md">
-                  <svg xmlns="http://www.w3.org/2000/svg" className="w-5 h-5 text-gray-700" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={2}>
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M5 12h14M12 5l7 7-7 7" />
-                  </svg>
-                </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
 
           {/* arrows under first card - align start on md */}
