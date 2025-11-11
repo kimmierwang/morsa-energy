@@ -6,6 +6,7 @@ export default function Expertise(): JSX.Element {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-start">
 
+          {/* Left: title, stats and tags */}
           <div>
             <span className="inline-block bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Expertise</span>
 
@@ -23,28 +24,34 @@ export default function Expertise(): JSX.Element {
               </div>
             </div>
 
-            <p className="text-gray-700 mt-6 max-w-md">
-              Internationally, coal is currently the most widely used primary fuel, accounting for approximately 40% of the world's electricity production. This situation is likely to remain until at least 2020.
-            </p>
-
             <div className="mt-6 flex flex-wrap gap-3 items-center">
               <span className="px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs">Coal Exploration</span>
               <span className="px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs">Coal to Power</span>
               <span className="px-3 py-1 rounded-full bg-red-50 text-red-600 text-xs">Other Related Projects</span>
             </div>
+          </div>
+
+          {/* Right: paragraph and CTA */}
+          <div>
+            <p className="text-gray-700 mt-2">
+              Internationally, coal is currently the most widely used primary fuel, accounting for approximately 40% of the world's electricity production. This situation is likely to remain until at least 2020.
+            </p>
 
             <div className="mt-6">
               <button className="bg-red-600 text-white px-4 py-2 rounded-full">Learn More</button>
             </div>
           </div>
+        </div>
 
-          <div className="relative">
-            <div className="overflow-hidden rounded-3xl shadow-md">
-              <img src="/images/img5.jpg" alt="Mining trucks" className="w-full h-[300px] md:h-[420px] object-cover rounded-3xl" />
-            </div>
+        {/* Full-width image below the intro */}
+        <div className="mt-10">
+          <div className="overflow-hidden rounded-3xl shadow-md">
+            <img src="/images/img5.jpg" alt="Mining trucks" className="w-full h-[360px] md:h-[520px] object-cover rounded-3xl" />
+          </div>
 
-            {/* decorative notch */}
-            <div className="absolute -bottom-6 left-6 w-40 h-10 bg-white rounded-t-xl shadow-sm hidden md:block"></div>
+          {/* top center notch */}
+          <div className="-mt-6 flex justify-center">
+            <div className="w-36 h-10 bg-white rounded-t-xl shadow-sm"></div>
           </div>
         </div>
       </div>
